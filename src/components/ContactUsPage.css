@@ -1,0 +1,24 @@
+.contact-us-page-section-hero-contact-us-page{
+    margin: 0 auto; /* Centers the sections */
+    width: 100vw;
+    padding:1rem 2rem;
+}
+
+.contact-us-page-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .contact-us-page-section-hero-contact-us-page {
+        padding: 1.5rem;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-us-page-section-hero-contact-us-page {
+        margin-top: 3rem;
+
+    }
+}

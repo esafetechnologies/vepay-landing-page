@@ -1,0 +1,66 @@
+.invest-with-vepay-invest-section-hero{
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding:1rem 2rem;
+}
+
+.other-service-checking-account-section{
+    background-color: #F3F7FF;
+    width: 100vw;
+    margin: 0;
+
+}
+
+.custom-img-1 {
+    width: 16rem !important;
+    padding: 0rem 1rem 3rem 1.5rem;
+}
+
+.custom-img-2 {
+    width: 10rem !important;
+    padding: 2rem 1rem;
+}
+
+.custom-img-3 {
+    width: 14rem !important;
+    padding: 1.5rem 1rem;
+}
+
+@media (max-width: 1024px) {
+
+    .custom-img-1 {
+        width: 13rem !important;
+        padding: 0rem 1rem 2.5rem 1.3rem;
+    }
+
+    .custom-img-2 {
+        width: 8rem !important;
+        padding: 2rem 1rem;
+    }
+
+    .custom-img-3 {
+        width: 12rem !important;
+        padding: 2rem 1rem;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .invest-with-vepay-invest-section-hero {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 480px) {
+    .invest-with-vepay-invest-section-hero {
+        margin-top: 2.5rem;
+    }
+}

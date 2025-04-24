@@ -1,0 +1,160 @@
+/* Container */
+.invest-plan-container {
+    max-width: 1440px; /* Limit the max width to 1440px */
+    width: 100%; /* Allow the container to stretch based on screen size */
+    margin: 0 auto; /* Center the container */
+    padding: 6rem 10rem;
+    text-align: center;
+    background-color: #022C87;
+}
+
+.invest-plan-header {
+    text-align: center;
+}
+
+/* Header */
+.invest-plan-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.invest-plan-description {
+    text-align: center;
+    font-size: 1rem;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 1rem 10rem 4rem 10rem;
+}
+
+/* Cards Layout */
+.invest-plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Each Card */
+.invest-plan-card {
+    background: #f9f9f9;
+    border-radius: 0.3rem;
+    padding: 0;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Subheading */
+.invest-plan-subheading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Table Container */
+.invest-plan-table-container {
+    overflow-x: auto;
+}
+
+/* Table */
+.invest-plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+/* Table Header */
+.invest-plan-table th {
+    background-color: #B5CDFF;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+
+}
+
+/* Table Rows */
+.invest-plan-table td {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+
+/* Alternate Row Background */
+.invest-plan-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .invest-plan-container {
+        padding: 3rem 3rem;
+    }
+
+    .invest-plan-card {
+        width: 80%;
+    }
+
+    .invest-plan-title {
+        font-size: 1.5rem;
+    }
+
+    .invest-plan-description {
+        font-size: 0.8rem;
+        padding: 1rem 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .invest-plan-container {
+        padding: 2rem 4rem 4rem 4rem;
+    }
+
+    .invest-plan-title {
+        font-size: 1.3rem;
+    }
+
+    .invest-plan-description {
+        padding: 1rem 1rem 2rem 1rem ;
+    }
+
+    .invest-plan-card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .invest-plan-table th,
+    .invest-plan-table td {
+        padding: 1.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .invest-plan-container {
+        padding: 2rem 1rem 4rem 1rem;
+    }
+
+    .invest-plan-title {
+        font-size: 1.3rem;
+    }
+
+    .invest-plan-description {
+        padding: 1rem 1rem 2rem 1rem ;
+    }
+
+    .invest-plan-card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .invest-plan-table th,
+    .invest-plan-table td {
+        padding: 1rem 0.6rem;
+        font-size: 0.8rem;
+    }
+}

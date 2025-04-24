@@ -1,0 +1,174 @@
+.our-mission-section {
+    position: relative;
+    width: 100vw; /* Full width of the screen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: flex-end; /* Align content to the bottom */
+    justify-content: flex-start; /* Align content to the left */
+    text-align: left;
+    color: white;
+    min-height: 50rem;
+}
+
+.our-mission-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Dark overlay */
+}
+
+.our-mission-wrapper {
+    max-width: 1440px; /* Restrict content to 1440px */
+    margin: 0 auto; /* Center the content */
+    width: 100%;
+}
+
+.our-mission-content {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+    margin-bottom: 2rem;
+    margin-top: auto; /* Ensure content stays at the bottom */
+    max-width: 1100px;
+}
+
+.our-mission-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+/* Horizontal dividers covering full width */
+.our-mission-divider {
+    width: 100vw; /* Full width of the screen */
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.69);
+}
+
+#divider-top {
+    margin-bottom: 2rem !important;
+}
+
+/* Mission text and VePay paragraph section */
+.our-mission-description {
+    display: flex;
+    flex-direction: row; /* Align text and impact horizontally */
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Mission Text */
+.our-mission-text {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Mission subheading */
+.our-mission-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Impact paragraph */
+.our-mission-impact {
+    max-width: 35%;
+}
+
+.our-mission-impact p {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .our-mission-section {
+        padding: 2rem 5rem;
+        min-height: 40rem;
+    }
+
+    .our-mission-content {
+        max-width: 80%;
+    }
+
+    .our-mission-subheading {
+        font-size: 1rem;
+        padding: 0rem;
+    }
+
+    .our-mission-text {
+        font-size: 0.9rem;
+        max-width: 60%;
+    }
+
+    .our-mission-impact {
+        max-width: 35%;
+    }
+
+    .our-mission-impact p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-mission-section {
+        padding: 1.5rem;
+        min-height: 35rem;
+    }
+
+    .our-mission-content {
+        max-width: 80%;
+    }
+    .our-mission-subheading{
+        font-size: 1rem;
+    }
+
+    .our-mission-description {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .our-mission-impact {
+        max-width: 100%;
+    }
+
+    .our-mission-impact p {
+        font-size: 0.9rem;
+        padding: 0;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .our-mission-section {
+        padding: 2rem 1.5rem;
+        min-height: 30rem;
+    }
+
+    .our-mission-content {
+        max-width: 90%;
+    }
+
+    .our-mission-subheading {
+        font-size: 0.9rem;
+    }
+
+    .our-mission-text {
+        max-width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .our-mission-impact p {
+        font-size: 0.8rem;
+
+    }
+}

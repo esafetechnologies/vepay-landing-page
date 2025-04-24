@@ -1,0 +1,132 @@
+/* Container */
+.invest-calculator-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 6rem 7rem;
+    text-align: center;
+}
+
+.invest-calculator-header {
+    text-align: center;
+}
+
+/* Header */
+.invest-calculator-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+
+.invest-calculator-description {
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+    padding: 1rem 10rem 4rem 10rem;
+}
+
+/* Cards Layout */
+.invest-calculator-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Each Card */
+.invest-calculator-card {
+    background: #EEF3FF;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 49%;
+    text-align: center;
+    color: black;
+}
+
+/* Sliders */
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.slider-label {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+    text-align: left;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.slider-container input {
+    width: 100%;
+    cursor: pointer;
+}
+
+.summary-card {
+    background-color: #EEF3FF;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 400;
+
+}
+
+.summary-card p {
+    font-size: 1.2rem;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .invest-calculator-container {
+        padding: 1.5rem 9rem;
+    }
+
+    .invest-calculator-card {
+        width: 55%;
+    }
+
+    .invest-calculator-title {
+        font-size: 1.5rem;
+    }
+
+    .invest-calculator-description {
+        font-size: 0.8rem;
+        padding: 1rem 5rem 2rem 5rem;
+    }
+
+
+    .slider-container{
+        font-size: 0.8rem;
+    }
+
+
+    .summary-card h3 {
+        font-size: 0.8rem;
+    }
+    .summary-card p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .invest-calculator-container {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .invest-calculator-title {
+        font-size: 1.3rem;
+    }
+
+    .invest-calculator-description {
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .invest-calculator-card {
+        width: 100%;
+    }
+
+}

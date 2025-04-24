@@ -1,0 +1,62 @@
+.hero-section,
+.invest-section-hero,
+.media-mentions-container,
+.articles-section-container {
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.hero-top-section{
+    width: 100%;
+    padding: 0;
+    background-color: #022C87 ;
+}
+
+.invest-section-hero{
+    padding: 2rem;
+
+}
+
+
+
+@media (max-width: 1440px) {
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 1rem 2rem;
+
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .invest-section-hero {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-section{
+        padding: 0rem 0rem;
+
+    }
+
+    .nav-section{
+        padding: 0rem 4rem;
+    }
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+
+}

@@ -1,0 +1,275 @@
+.vepay-checking-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 4rem 1rem 4rem;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.vepay-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2rem; /* Space between image & text */
+}
+
+/* Left Side - Image */
+.vepay-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right Side - Text */
+.vepay-content {
+    max-width: 550px;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+.subheading {
+    color: #6B7280;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.heading {
+    color: #333333;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.description {
+    color: #4B5563;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.vepay-button {
+    background-color: #022C87;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 2rem;
+}
+
+.vepay-button:hover {
+    background-color: #011f5b;
+}
+
+
+@media (max-width: 1024px) {
+
+    .vepay-checking-section {
+        display: flex;
+        justify-content: flex-start;
+        padding: 8rem 0rem  0rem 0rem;
+    }
+
+    .vepay-container{
+        gap: 1rem;
+    }
+
+    .vepay-image-container img {
+        width: 32rem;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .vepay-content{
+        max-width: 25rem;
+    }
+
+    .subheading {
+        color: #6B7280;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .heading {
+        color: #333333;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+
+    .description {
+        color: #4B5563;
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .vepay-button {
+        background-color: #022C87;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 2rem;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+
+    .vepay-checking-section {
+        display: flex;
+        justify-content: flex-start;
+        padding: 8rem 4rem 0 4rem;
+    }
+
+    .vepay-image-container{
+        z-index: 1;
+
+    }
+
+
+    .vepay-container{
+        gap: 0;
+    }
+
+    .vepay-image-container{
+        margin-left: -6rem;
+    }
+
+    .vepay-image-container img {
+        width: 32rem;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .vepay-content{
+        max-width: 25rem;
+        margin-top: -3rem;
+        z-index: 2;
+        padding-left: 1rem;
+    }
+
+    .subheading {
+        color: #6B7280;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .heading {
+        color: #333333;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0.5rem 0;
+    }
+
+    .description {
+        color: #4B5563;
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .vepay-button {
+        background-color: #022C87;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 2rem;
+    }
+
+}
+
+/* Responsive - Mobile */
+@media (max-width: 767px) {
+    .vepay-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .vepay-checking-section {
+        display: flex;
+        justify-content: flex-start;
+        padding: 2rem 2rem;
+    }
+
+    .vepay-container{
+        margin-left: 6rem;
+    }
+
+    .vepay-image-container{
+        z-index: 1;
+
+    }
+
+
+    .vepay-container{
+        gap: 0;
+    }
+
+    .vepay-image-container img {
+        width: 32rem;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .vepay-image-container{
+        margin-left: -10rem;
+
+    }
+
+
+    .vepay-content{
+        max-width: 21rem;
+        margin-top: -3rem;
+        z-index: 2;
+        padding-left: 1rem;
+        margin-left: -7rem;
+    }
+
+    .subheading {
+        color: #6B7280;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .heading {
+        color: #333333;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 1rem 0;
+    }
+
+    .description {
+        color: #4B5563;
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .vepay-button {
+        background-color: #022C87;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 2rem;
+    }
+
+
+}

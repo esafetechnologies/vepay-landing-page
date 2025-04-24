@@ -1,0 +1,181 @@
+.ve-card-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20rem;
+}
+
+.ve-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1440px;
+    gap: 0; /* Space between text and image */
+}
+
+/* Text Content */
+.ve-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50%;
+    text-align: left;
+    gap: 0.5rem;
+    z-index: 2;
+    padding-left: 7rem;
+    margin-right: -6rem;
+}
+
+.ve-card-content h4 {
+    font-size: 1.3rem;
+}
+
+.ve-card-content h2 {
+    font-size: 2rem;
+}
+
+.ve-card-content p {
+    font-size: 1rem;
+}
+
+/* Floating Credit Card */
+.floating-card-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.floating-card {
+    z-index: 1;
+    width: 50rem;
+    margin: -12rem 0rem -9rem 0rem;
+}
+
+@media (max-width: 1024px) {
+
+    .ve-card-section {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 3vw 9vw;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20rem;
+    }
+
+    .ve-card-content{
+        margin-right: -2rem;
+        padding-left: 1rem;
+    }
+
+    .ve-card-content h4 {
+        font-size: 1rem;
+    }
+
+    .ve-card-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .ve-card-content p {
+        font-size: 0.8rem;
+    }
+
+
+    .floating-card {
+        width: 25rem;
+        margin: -14rem 0rem -11rem 0rem;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .ve-card-section {
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 2rem 2rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20rem;
+    }
+
+    .ve-card-content{
+        margin-right: -2rem;
+        padding-left: 1rem;
+    }
+
+    .ve-card-content h4 {
+        font-size: 1rem;
+    }
+
+    .ve-card-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .ve-card-content p {
+        font-size: 0.8rem;
+    }
+
+
+    .floating-card {
+        width: 25rem;
+        margin: -14rem 0rem -11rem 0rem;
+    }
+
+}
+
+
+/* Responsive */
+@media (max-width: 767px) {
+    .ve-card-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ve-card-section {
+        position: relative;
+        background-size: cover;
+        background-position: inherit;
+        color: white;
+        padding: 3rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 20rem;
+    }
+
+    .ve-card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100%;
+        text-align: left;
+        gap: 0.5rem;
+        margin-right: 0;
+        padding-left: 1rem;
+
+    }
+
+    .floating-card-container {
+        display: none; /* Hide floating card on mobile */
+    }
+
+    .ve-card-content h4 {
+        font-size: 1rem;
+    }
+
+    .ve-card-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .ve-card-content p {
+        font-size: 0.8rem;
+    }
+}

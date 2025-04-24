@@ -1,0 +1,228 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.6rem 2rem;
+}
+
+/* Logo (Aligned to the Left) */
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+
+}
+
+.nav-logo img {
+    width: 7rem;
+}
+
+/* Right Section (Links + Button) */
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+    transition: color 0.3s;
+    font-weight: 400;
+}
+
+.nav-links li a:hover {
+    color: #007bff;
+}
+
+/* Contact Us Button */
+.nav-button {
+    background-color: #022C87;
+    color: white;
+    border: none;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 30px;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/* Hamburger Menu (Mobile) */
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-toggle span {
+    background: #333;
+    height: 3px;
+    width: 25px;
+    margin: 4px 0;
+    transition: 0.3s;
+}
+
+
+/* Medium screens (1024px - small laptops & tablets in landscape) */
+@media (max-width: 1024px) {
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0.5rem 1.5rem;
+    }
+
+    .nav-button {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.8rem;
+        margin-left: 30px;
+    }
+
+    .nav-links li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 0.6rem;
+        transition: color 0.3s;
+        font-weight: 400;
+    }
+
+}
+
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .nav-right {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-container {
+        padding: 1rem 1.5rem;
+
+    }
+
+
+    .nav-logo img {
+        width: 5rem;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 70%;
+        background: white;
+        flex-direction: column;
+        text-align: right;
+        padding: 10px 0;
+        display: none;
+        align-items: flex-end;
+    }
+
+    /* Fade-in animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeInRightToLeft {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .nav-links.open {
+        display: flex;
+        padding: 2rem 3rem;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.69);
+        border-radius: 16px;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        animation: fadeInRightToLeft 0.3s ease-in-out;
+
+    }
+
+    .nav-links.open li a {
+        font-size: 1rem;
+        animation: fadeInRightToLeft 0.3s ease-in-out;
+
+    }
+
+    .nav-links.open .nav-contact-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links.open .nav-button {
+        display: block;
+        width: 100%;
+        text-align: right;
+        font-size: 1rem;
+        background-color: rgba(255,75,75,0);
+        color: #333;
+        animation: fadeInRightToLeft 0.3s ease-in-out;
+        font-weight: 400;
+        padding: 0 2rem 0 0;
+
+    }
+
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+}

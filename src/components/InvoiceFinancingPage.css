@@ -1,0 +1,28 @@
+.invoice-financing-invest-section-hero{
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding:1rem 2rem;
+
+}
+
+
+
+
+@media (max-width: 1024px) {
+
+    .invoice-financing-invest-section-hero {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 480px) {
+    .invoice-financing-invest-section-hero {
+        margin-top: 3.5rem;
+    }
+}

@@ -1,0 +1,218 @@
+/* Container */
+.eligibility-container {
+    max-width: 100%;
+    margin: 0;
+    padding: 6rem 10rem;
+    text-align: center;
+    background-color: #022C87;
+}
+
+.eligibility-header,
+.eligibility-cards {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.eligibility-header{
+    max-width: 1000px;
+}
+
+/* Header */
+.eligibility-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.eligibility-description {
+    text-align: center;
+    font-size: 1rem;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 1rem 10rem 5rem 10rem;
+}
+
+/* Cards Layout */
+.eligibility-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Each Card */
+.eligibility-card {
+    background: #f9f9f9;
+    border-radius: 0.8rem;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Subheading */
+.eligibility-subheading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Inner Cards */
+.eligibility-inner-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding-left: 1rem;
+}
+
+/* Inner Card */
+.eligibility-inner-card {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1rem 0rem;
+}
+
+/* Image */
+.eligibility-image {
+    width: 2.2rem;
+    height: auto;
+    margin-right: 1rem;
+}
+
+/* Text */
+.eligibility-text h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: #4B5563;
+}
+
+.eligibility-text p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+
+    .eligibility-container {
+        padding: 3rem 3rem;
+    }
+
+
+    .eligibility-title {
+        font-size: 1.5rem;
+    }
+
+    .eligibility-description {
+        font-size: 0.8rem;
+        padding: 1rem 10rem 5rem 10rem;
+    }
+
+    /* Cards Layout */
+    .eligibility-cards {
+        gap: 20px;
+    }
+
+    /* Each Card */
+    .eligibility-card {
+        border-radius: 0.8rem;
+        padding: 1.2rem;
+        width: 40%;
+    }
+
+    /* Subheading */
+    .eligibility-subheading {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    /* Inner Cards */
+    .eligibility-inner-cards {
+        padding-left: 1rem;
+    }
+
+    /* Inner Card */
+    .eligibility-inner-card {
+        padding: 0.8rem 0rem;
+    }
+
+    /* Image */
+    .eligibility-image {
+        width: 2rem;
+        height: auto;
+        margin-right: 0.5rem;
+    }
+
+    /* Text */
+    .eligibility-text h4 {
+        font-size: 0.6rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .eligibility-text p {
+        font-size: 1rem;
+    }
+
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .eligibility-description{
+        padding: 1rem 3rem 3rem 3rem;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .eligibility-cards {
+        flex-direction: column;
+    }
+
+    .eligibility-container{
+        padding: 2rem 1rem;
+    }
+
+    .eligibility-title{
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .eligibility-description{
+        padding:0 0 2rem 0;
+    }
+
+    .eligibility-cards{
+        align-items: center;
+    }
+
+    .eligibility-card{
+        width: 75%;
+    }
+
+    .eligibility-inner-card{
+        padding: 0.5rem 0;
+    }
+
+    .eligibility-subheading{
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .eligibility-image{
+        width: 1.6rem;
+        height: auto;
+    }
+    .eligibility-text p{
+        font-size: 0.9rem;
+    }
+
+
+}

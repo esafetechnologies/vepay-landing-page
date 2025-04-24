@@ -1,0 +1,56 @@
+.bussiness-funding-invest-section-hero{
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding:1rem 2rem;
+
+}
+
+.calculate-funding-invest-section-hero{
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding: 2rem;
+
+}
+
+.custom-img-01 {
+    width: 13rem !important;
+    padding: 0 !important;
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .bussiness-funding-invest-section-hero {
+        padding: 1.5rem;
+    }
+
+    .calculate-funding-invest-section-hero {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (max-width: 480px) {
+
+    .bussiness-funding-invest-section-hero {
+        margin-top: 3.5rem;
+    }
+
+    .calculate-funding-invest-section-hero {
+        margin-top: 3.5rem;
+    }
+
+    .custom-img-01 {
+        width: 10rem !important;
+        padding: 0 !important;
+
+    }
+
+}
