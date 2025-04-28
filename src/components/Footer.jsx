@@ -41,7 +41,7 @@ const Footer = () => {
                 <p>
                     Developed by{" "}
                     <a
-                        href="https://esafe.technologies"
+                        href="https://esafe.technology"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="footer-dev-link"
