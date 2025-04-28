@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Nav.css"; // Import the CSS file
-import navBarLogo from '../assets/VePayLogo.svg';
+import navBarLogo from '../assets/vepay-logo-light.png';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);

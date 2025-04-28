@@ -8,7 +8,7 @@
     border-radius: 1.5625rem;
     background-image: url("../assets/hero-section-logo.gif");
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom 0 right -1rem;
     background-size: 53rem;
     max-width: 1440px;
     margin: 0 auto;

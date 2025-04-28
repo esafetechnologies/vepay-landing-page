@@ -1,5 +1,5 @@
 import './Footer.css';  // Import custom CSS for styling
-import socialMediaLogo1 from "../assets/1.svg"
+import socialMediaLogo1 from "../assets/1.png"
 import socialMediaLogo2 from "../assets/2.svg"
 import socialMediaLogo3 from "../assets/3.svg"
 import socialMediaLogo4 from "../assets/4.svg"
@@ -12,29 +12,46 @@ const Footer = () => {
 
             <div className="footer-container">
                 {/* Left side - Logo and Links */}
-                    <img src={footerLogoLeft} alt="Darxforge Logo" className="footer-logo"/>
-                    <div className="footer-links">
-                        <a href="/privacy-policy">Privacy Policy</a>
-                        <a href="/terms-and-conditions">Terms & Conditions</a>
-                        <a href="/careers">Careers</a>
-                        <a href="/faqs">FAQs</a>
-                        <a href="/contact-us">Contact Us</a>
-                    </div>
+                <img src={footerLogoLeft} alt="Darxforge Logo" className="footer-logo"/>
+                <div className="footer-links">
+                    <a href="/privacy-policy">Privacy Policy</a>
+                    <a href="/terms-and-conditions">Terms & Conditions</a>
+                    <a href="/careers">Careers</a>
+                    <a href="/faqs">FAQs</a>
+                    <a href="/contact-us">Contact Us</a>
+                </div>
 
                 {/* Right side - Logos and background image */}
-                    <div className="footer-logos">
+                <div className="footer-logos">
+                    <a href="https://youtube.com/@vepayinc?si=rSj91pscHJmVJaaW" target="_blank" rel="noopener noreferrer">
                         <img src={socialMediaLogo1} alt="Logo 1" className="footer-social-logo"/>
+                    </a>
+                    <a href="https://www.facebook.com/vepay.io" target="_blank" rel="noopener noreferrer">
                         <img src={socialMediaLogo2} alt="Logo 2" className="footer-social-logo"/>
+                    </a>
+                    <a href="https://www.instagram.com/vepayinc/" target="_blank" rel="noopener noreferrer">
                         <img src={socialMediaLogo3} alt="Logo 3" className="footer-social-logo"/>
-                        <img src={socialMediaLogo4} alt="Logo 4" className="footer-social-logo"/>
-                    </div>
+                    </a>
+                </div>
 
             </div>
 
-            {/* Company name at the bottom */}
             <div className="footer-bottom">
-                <p>&copy; 2025 Darxforge. All rights reserved.</p>
+                <p>&copy; 2025 Vepay. All rights reserved.</p>
+                <p>
+                    Developed by{" "}
+                    <a
+                        href="https://darxforge.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="footer-dev-link"
+                    >
+                        Darxforge
+                    </a>
+                </p>
             </div>
+
+
         </footer>
     );
 };
