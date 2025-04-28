@@ -1,0 +1,141 @@
+.why-ecommerce-section {
+    position: relative;
+    width: 100vw; /* Full width of the screen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    display: flex;
+    align-items: flex-end; /* Align content to the bottom */
+    justify-content: flex-start; /* Align content to the left */
+    text-align: left;
+    color: white;
+    min-height: 50rem;
+}
+
+.why-ecommerce-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.why-ecommerce-container {
+    max-width: 1440px; /* Constrain content inside 1440px */
+    width: 100%;
+    margin: 0 auto; /* Center the container */
+    padding: 0; /* Optional: adds some padding on the sides */
+}
+
+.why-ecommerce-content {
+    position: relative;
+    z-index: 2;
+    width: 100%; /* Ensure content spans the full container width */
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.why-ecommerce-heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+/* Stacks items vertically */
+.why-ecommerce-points {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    gap: 1.5rem;
+}
+
+/* why-ecommerce points */
+.why-ecommerce-point {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    text-align: left;
+}
+
+#divider-top {
+    margin-bottom: 2rem !important;
+}
+
+/* Horizontal dividers covering full width */
+.why-ecommerce-divider {
+    width: 100vw; /* Full width of the screen */
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.69);
+    max-width: none
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .why-ecommerce-section {
+        padding: 0rem;
+        min-height: 40rem;
+    }
+
+    .why-ecommerce-container {
+        padding: 0 2rem;
+    }
+
+    .why-ecommerce-content {
+        max-width: 60%;
+    }
+
+    .why-ecommerce-heading {
+        font-size: 1.5rem;
+        padding: 0rem 1.5rem;
+    }
+
+    .why-ecommerce-point {
+        font-size: 0.8rem;
+        padding: 0rem 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .why-ecommerce-section {
+        padding: 0rem;
+        min-height: 35rem;
+    }
+
+    .why-ecommerce-container {
+        padding: 0 1rem;
+    }
+
+    .why-ecommerce-content {
+        max-width: 70%;
+    }
+
+    .why-ecommerce-point {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .why-ecommerce-section {
+        padding: 0;
+        min-height: 23rem;
+    }
+
+    .why-ecommerce-container {
+        padding: 0 1rem;
+    }
+
+    .why-ecommerce-content {
+        max-width: 90%;
+    }
+
+    .why-ecommerce-heading {
+        font-size: 1.3rem;
+    }
+
+    .why-ecommerce-point {
+        font-size: 0.8rem;
+    }
+}

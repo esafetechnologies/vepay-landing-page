@@ -1,0 +1,228 @@
+.checking-account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%; /* Ensures container stretches across the entire viewport */
+    margin: 0;
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: #F3F7FF;
+}
+
+/* Content Section - Keep content restricted to a max-width of 1440px */
+.checking-account-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    text-align: left;
+    color: white;
+    max-width: 1440px; /* Restricts the content width */
+    margin: 0 auto; /* Centers the content */
+    width: 100%; /* Allows content to fill up 100% of its container */
+}
+/* Left Side: Text */
+.checking-account-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checking-account-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+.checking-account-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.checking-account-subheading {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #6B7280;
+    margin-bottom: 1rem;
+}
+
+.checking-account-description {
+    font-size: 1rem;
+    color: #4B5563;
+}
+
+/* Right Side: Image */
+.checking-account-image-container {
+    flex: 1;
+    max-width: 45%;
+}
+
+.checking-account-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Feature Items */
+.checking-account-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.checking-account-feature {
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    color: black;
+}
+
+.checking-account-feature-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0rem;
+}
+
+.checking-account-feature-header img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.feature-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.feature-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4B5563;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .checking-account-container {
+        padding: 5rem;
+    }
+
+    .checking-account-content {
+        gap: 3rem;
+    }
+
+    .checking-account-subheading {
+        font-size: 1rem;
+    }
+
+    .checking-account-title {
+        font-size: 1.5rem;
+    }
+
+    .checking-account-description {
+        font-size: 0.8rem;
+    }
+
+    .feature-title {
+        font-size: 0.8rem;
+    }
+
+    .feature-description {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .checking-account-container {
+        padding: 2rem 1.5rem 4rem 1.5rem;
+    }
+
+    .checking-account-content {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .checking-account-header {
+        padding: 2rem 5rem;
+    }
+
+    .checking-account-image-container {
+        max-width: 100%;
+    }
+
+    .checking-account-text {
+        max-width: 100%;
+    }
+
+    .checking-account-description {
+        margin-bottom: 1rem;
+    }
+
+    .checking-account-title {
+        font-size: 1.5rem;
+    }
+
+    .checking-account-features {
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .checking-account-feature {
+        padding: 0.5rem 3.5rem;
+    }
+
+    .feature-title {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .checking-account-container {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    .checking-account-header {
+        text-align: left;
+        padding: 0rem 0rem;
+    }
+
+    .checking-account-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .checking-account-subheading {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .checking-account-title {
+        font-size: 1.3rem;
+    }
+
+    .checking-account-features {
+        gap: 0.5rem;
+    }
+
+    .checking-account-feature {
+        padding: 0.5rem 0;
+    }
+
+    .feature-title {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+
+    .feature-description {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+}

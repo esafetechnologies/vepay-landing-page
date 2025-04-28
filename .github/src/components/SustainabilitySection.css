@@ -1,0 +1,165 @@
+.sustainability-section {
+    position: relative;
+    width: 100vw;
+    height: 50rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+
+.sustainability-container {
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    left: 50%;  /* Move the container to the center */
+    transform: translateX(-50%); /* Shift it back to align left */
+    padding-left: 7rem; /* Ensure left padding */
+}
+
+.sustainability-text {
+    max-width: 750px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.sustainability-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 1440px) {
+    .sustainability-container {
+        left: 0;
+        transform: none;
+    }
+}
+
+
+.sustainability-text h3 {
+    color: #E5E7EB;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.sustainability-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sustainability-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+.sustainability-button {
+    background-color: #EEF3FF;
+    color: #022C87;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.sustainability-button:hover {
+    background-color: #DCE6FF;
+}
+
+
+@media (max-width: 1024px) {
+    .sustainability-section {
+        padding: 5rem;
+        min-height: 35rem;
+    }
+
+    .sustainability-text {
+        max-width: 50%;
+    }
+
+    .sustainability-text h3 {
+        font-size: 1rem;
+    }
+
+    .sustainability-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .sustainability-text p {
+        font-size: 0.8rem;
+    }
+
+    .sustainability-button {
+        font-size: 0.8rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sustainability-section {
+        padding: 10rem 5rem;
+        min-height: 25rem;
+    }
+
+    .sustainability-text {
+        max-width: 50%;
+    }
+
+    .sustainability-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .sustainability-text p {
+        font-size: 0.8rem;
+    }
+
+    .sustainability-button {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .sustainability-section {
+        margin: 2rem 0rem;
+        padding: 1.5rem;
+        height: 15rem;
+    }
+
+    .sustainability-container{
+        padding-left: 0;
+    }
+
+    .sustainability-text {
+        max-width: 100%;
+    }
+
+    .sustainability-text h3 {
+        font-size: 0.9rem;
+    }
+
+    .sustainability-text h2 {
+        font-size: 1.2rem;
+    }
+
+    .sustainability-text p {
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .sustainability-button {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}

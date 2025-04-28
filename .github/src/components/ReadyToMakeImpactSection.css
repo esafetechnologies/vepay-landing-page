@@ -1,0 +1,155 @@
+.impact-section {
+    position: relative;
+    width: 100vw; /* Make the section extend beyond 1440px */
+    background-size: auto;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 8rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    color: white;
+    height: fit-content;
+    background-color: #011D5F;
+}
+
+.impact-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.04); /* Dark overlay */
+}
+
+/* Container for inner content, ensures the content does not exceed 1440px */
+.impact-inner-container {
+    max-width: 1440px; /* Limit content width to 1440px */
+    width: 100%; /* Ensure it takes full width of its parent */
+    margin-left: auto;
+    margin-right: auto; /* Center it */
+    padding: 0 2rem; /* Optional: add some padding around the content */
+}
+
+.impact-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.impact-text {
+    max-width: 50%;
+}
+
+.impact-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.impact-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 90%;
+}
+
+/* Button on the right */
+.impact-button {
+    background-color: #EEF3FF;
+    color: #022C87;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.impact-button:hover {
+    background-color: #DCE6FF;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+    .impact-section {
+        padding: 5rem;
+    }
+
+    .impact-text {
+        max-width: 60%;
+    }
+
+    .impact-heading {
+        font-size: 2rem;
+    }
+
+    .impact-description {
+        font-size: 1.1rem;
+    }
+
+    .impact-button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .impact-section {
+        padding: 4rem 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .impact-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .impact-text {
+        max-width: 100%;
+    }
+
+    .impact-heading {
+        font-size: 1.3rem;
+    }
+
+    .impact-description {
+        font-size: 0.8rem;
+    }
+
+    .impact-button {
+        font-size: 0.8rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .impact-button {
+        margin-top: 2rem;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .impact-section {
+        padding: 3rem 1rem;
+    }
+
+    .impact-heading {
+        font-size: 1.3rem;
+    }
+
+    .impact-description {
+        font-size: 0.8rem;
+    }
+
+    .impact-button {
+        font-size: 0.8rem;
+        padding: 0.8rem 1.5rem;
+    }
+}

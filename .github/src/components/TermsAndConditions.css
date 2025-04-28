@@ -1,0 +1,108 @@
+/* Container */
+.terms-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+/* Content Box */
+.terms-content {
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    line-height: 1.8;
+    color: #555;
+}
+
+/* Main Heading */
+.terms-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+/* Last Updated Text */
+.terms-content .last-updated {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 1.5rem;
+}
+
+/* Section Headings */
+.terms-content h2 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    color: #222;
+    text-align: left;
+}
+
+/* Paragraphs */
+.terms-content p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+/* Links */
+.terms-content a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.terms-content a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+ol{
+    text-align: left;
+    padding-left: 2rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .terms-content {
+        padding: 2rem 1.5rem;
+    }
+
+    .terms-content h1 {
+        font-size: 1.7rem;
+    }
+
+    .terms-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .terms-content p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .terms-content {
+        padding: 1.5rem 1rem;
+        margin-top: 3rem;
+    }
+
+    .terms-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .terms-content h2 {
+        font-size: 1rem;
+    }
+
+    .terms-content p {
+        font-size: 0.9rem;
+    }
+}

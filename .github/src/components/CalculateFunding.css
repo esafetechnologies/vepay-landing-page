@@ -1,0 +1,313 @@
+.calculate-funding-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 20rem;
+    border-radius: 1.3rem;
+
+}
+
+.calculate-funding-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 0; /* Space between text and image */
+}
+
+/* Text Content */
+.calculate-funding-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 50%;
+    text-align: left;
+    gap: 0.5rem;
+    z-index: 2;
+    padding-right: 8rem;
+}
+
+.calculate-funding-content h4 {
+    font-size: 1.3rem;
+}
+
+.calculate-funding-content h2 {
+    font-size: 2rem;
+}
+
+.calculate-funding-content p {
+    font-size: 1rem;
+}
+
+
+.calculate-funding-calculator {
+    background: #EEF3FF; /* Blue-grey */
+    padding: 2rem;
+    border-radius: 0.8rem;
+    color: white;
+    text-align: left;
+}
+
+
+/* Input Fields */
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 0.2rem;
+}
+
+.input-box input {
+    flex: 1;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    padding: 1.2rem;
+    font-size: 1rem;
+    background-color: white;
+}
+
+.input-box span {
+    font-weight: bold;
+    padding: 1rem;
+    color: black;
+    border-radius: 0;
+}
+
+/* Output */
+.output-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0.3rem;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.output-box p {
+    margin: 0;
+}
+
+.output-box h2 {
+    font-size: 1rem;
+}
+
+/* Footer */
+.calculator-footer {
+    font-size: 1rem;
+    text-align: left;
+    color: #4B5563;
+    padding: 1rem 0.3rem;
+}
+
+
+@media (max-width: 1024px) {
+
+    .calculate-funding-section {
+        position: relative;
+        background-size: cover;
+        background-position: inherit;
+        color: white;
+        padding: 7vw 7vw;
+        display: flex;
+        justify-content: flex-end;
+        gap: 20rem;
+    }
+
+    .calculate-funding-container{
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    .calculate-funding-content{
+        padding: 0;
+        text-align: center;
+        max-width: 50%;
+        gap: 2vw;
+    }
+
+    .calculate-funding-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .calculate-funding-content p {
+        font-size: 0.8rem;
+    }
+
+    .input-group {
+        margin-bottom: 2rem;
+    }
+
+    .input-box {
+        border-radius: 0.3rem;
+    }
+
+    .input-box input {
+        font-size: 0.8rem;
+    }
+
+    .input-box span {
+        font-size: 0.8rem;
+    }
+
+    /* Output */
+    .output-box {
+        font-size: 0.8rem;
+    }
+
+    .output-box p {
+        margin: 0;
+    }
+
+    .output-box h2 {
+        font-size: 0.8rem;
+    }
+
+    /* Footer */
+    .calculator-footer {
+        font-size: 0.8rem;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 900px) {
+
+    .calculate-funding-content{
+        padding: 0;
+        text-align: center;
+        max-width: 75%;
+        gap: 2vw;
+    }
+}
+
+
+/* Responsive */
+@media (max-width: 767px) {
+    .calculate-funding-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .calculate-funding-section {
+        position: relative;
+        background-size: cover;
+        background-position: inherit;
+        color: white;
+        padding: 3rem 1rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 20rem;
+    }
+
+    .calculate-funding-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100%;
+        text-align: left;
+        gap: 0.5rem;
+        margin-right: 0;
+        padding-left: 1rem;
+
+    }
+
+    .calculate-funding-content h4 {
+        font-size: 1rem;
+    }
+
+    .calculate-funding-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .calculate-funding-content p {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .calculate-funding-section {
+        position: relative;
+        background-size: cover;
+        background-position: inherit;
+        color: white;
+        padding: 2rem 1.5rem;
+        display: flex;
+        justify-content: space-around;
+        gap: 20rem;
+    }
+
+    .calculate-funding-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100%;
+        text-align: left;
+        gap: 0.5rem;
+        margin-right: 0;
+        padding-left:0;
+
+    }
+
+
+    .calculate-funding-container{
+        gap: 2rem;
+    }
+
+    .calculate-funding-content h4 {
+        font-size: 1rem;
+    }
+
+    .calculate-funding-content h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .calculate-funding-content p {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+
+    .calculate-funding-calculator {
+        padding: 1rem;
+        border-radius: 0.8rem;
+    }
+
+    .input-group{
+        margin-bottom: 1rem;
+    }
+
+    .input-box input{
+        padding: 0.6rem;
+    }
+
+    .input-box span{
+        padding: 0.6rem;
+    }
+
+    .output-box{
+        padding: 0.5rem 0rem 0.5rem 0.6rem;
+    }
+
+    .calculator-footer{
+        padding: 0.6rem;
+        font-size: 0.6rem;
+    }
+
+
+}

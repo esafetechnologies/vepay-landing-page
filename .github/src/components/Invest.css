@@ -1,0 +1,223 @@
+.invest-section {
+    background-color: #022C87;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:6rem 4rem;
+    gap: 1rem;
+    margin: 0 0 4rem 0;
+    border-radius: 1.3rem;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.invest-text {
+    flex: 1;
+    text-align: left;
+    z-index: 2;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 33rem;
+
+}
+
+.invest-text h3 {
+    color: #E5E7EB;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.invest-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.invest-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.invest-button {
+    background-color: #EEF3FF;
+    color: #022C87;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.invest-button:hover {
+    background-color: #DCE6FF;
+}
+
+.invest-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+    margin: -3rem -3rem;
+}
+
+.invest-image img {
+    display: none;
+    max-width: 60rem;
+    height: auto;
+    border-top-right-radius: 1.3rem;
+}
+
+
+@media (max-width: 1024px) {
+
+    .invest-section {
+        padding: 3rem 1rem;
+        gap: 1rem;
+        margin: 0;
+        border-radius: 1.3rem;
+        background-size: auto;
+
+    }
+
+    .invest-text {
+        padding-left: 1rem;
+        padding-right: 26rem;
+    }
+
+    .invest-text h3 {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .invest-text h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .invest-text p {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin-bottom: 3rem;
+    }
+
+    .invest-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+    }
+
+    .invest-image {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 1;
+        margin: -2rem -2rem;
+    }
+
+    .invest-image img {
+        max-width: 40rem;
+        height: auto;
+        border-top-right-radius: 1.3rem;
+    }
+
+}
+@media (max-width: 900px) {
+    /* Add a black fade overlay */
+
+    .invest-section {
+        position: relative; /* Ensure the overlay and content are positioned properly */
+        background-color: #022C87;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+        gap: 1rem;
+        margin: 0rem 0rem 0rem 0rem;
+        border-radius: 1.3rem;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: right;
+        overflow: hidden; /* Prevents overlay from overflowing */
+    }
+
+    .invest-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+        border-radius: 1.3rem;
+        z-index: 1; /* Ensures it overlays but stays behind the text */
+    }
+
+    /* Ensure the content is above the overlay */
+    .invest-text, .invest-image {
+        position: relative;
+        z-index: 2;
+    }
+    .invest-text {
+        padding-right: 9rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+    .invest-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        background-image: url("../assets/invest-section-mobile-bg.png");
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: inherit;
+        margin: 0rem 0rem 0rem 0rem;
+
+    }
+
+    .invest-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+        border-radius: 1.3rem;
+        z-index: 1; /* Ensures it overlays but stays behind the text */
+    }
+
+    .invest-text {
+        margin-right: 0;
+        padding-left: 0rem;
+        padding-right: 0;
+    }
+
+    .invest-image {
+        display: none;
+    }
+
+    .invest-text h3 {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .invest-text h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .invest-text p {
+        margin-bottom: 1.8rem;
+    }
+
+    .invest-button{
+        padding: 0.8rem 0.8rem;
+        font-size: 0.7em;
+    }
+}

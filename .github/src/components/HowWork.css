@@ -1,0 +1,243 @@
+.howwork-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 4rem 0;
+}
+
+.howwork-header {
+    color: #333;
+    gap: 3rem;
+    max-width: 800px;
+}
+
+.howwork-title{
+    margin-bottom: 2rem;
+
+}
+
+.howwork-subtext {
+    font-size: 1rem;
+    margin-bottom: 7rem;
+    color: #555;
+}
+
+
+
+.howwork-steps{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+.howwork-step-card {
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    align-items: center;
+    background: #0096DA;
+    border-radius: 1.2rem;
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: left;
+    width: 20rem;
+    justify-content: flex-end;
+}
+
+.step-image {
+}
+
+.step-image img {
+    width: 15rem;
+    height: auto;
+}
+
+.step-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #EEF3FF;
+    width: 100%;
+    font-size: 0.8rem;
+    color: black;
+    padding: 0 1rem;
+    border-radius: 0 0 1.2rem 1.2rem;
+    margin-top: -1rem;
+    min-height: 5rem;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+    .howwork-container {
+        padding: 2rem;
+        margin: 4rem 0;
+    }
+
+    .howwork-header {
+        gap: 3rem;
+        width: 50%;
+    }
+
+    .howwork-title {
+        margin-bottom: 2rem;
+    }
+
+    .howwork-subtext {
+        font-size: 0.8rem;
+        margin-bottom: 7rem;
+        color: #555;
+    }
+
+    /* Use Grid to create a 2x2 layout */
+    .howwork-steps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, auto);  /* Two rows */
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .howwork-step-card {
+        height: 14rem;
+        width: 13rem;
+        border-radius: 1.2rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .step-image img {
+        width: 12rem;
+        height: auto;
+    }
+
+    .step-details {
+        font-size: 0.6rem;
+        padding: 0;
+        border-radius: 0 0 1.2rem 1.2rem;
+        margin-top: -1rem;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .howwork-container{
+        margin-top: 0;
+    }
+
+    .howwork-steps{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .howwork-header{
+        width: 75%;
+    }
+
+    .howwork-subtext{
+        margin-bottom: 4rem;
+    }
+
+    .howwork-steps {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-template-rows: repeat(2, auto);  /* Two rows */
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .howwork-step-card {
+        height: 14rem;
+        width: 13rem;
+        border-radius: 1.2rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .step-details{
+        text-align: center;
+    }
+
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .howwork-container{
+        padding: 0rem 2rem;
+    }
+
+    .howwork-header{
+        width: 100%;
+
+    }
+
+    .howwork-title{
+        font-size: 1.3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .howwork-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .howwork-column {
+        width: 100%;
+    }
+
+    .howwork-steps {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Two columns */
+        grid-template-rows: repeat(4, auto);  /* Two rows */
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .howwork-step-card {
+        height: 14rem;
+        width: 13rem;
+        border-radius: 1.2rem;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .howwork-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .howwork-card-image {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .howwork-header{
+        text-align: left;
+    }
+
+}
+
+

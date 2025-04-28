@@ -1,0 +1,164 @@
+/* Prevent the whole page from scrolling horizontally */
+.media-mentions-container {
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* Section styles */
+.media-mentions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 2rem 2rem;
+    width: 100%;
+    max-width: 99vw; /* Prevent content from expanding beyond viewport */
+    overflow: hidden;
+}
+
+.media-mentions h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    color: #333333;
+    width: 25rem;
+}
+
+/* Scrollable row for media cards */
+.media-scroll {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+}
+
+/* Hide scrollbar */
+.media-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.media-card {
+    display: inline-block;
+    min-width: 250px;
+    max-width: 300px;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    scroll-snap-align: start;
+    text-align: left;
+}
+
+/* Cover image */
+.cover-image {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+    display: block;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+    z-index: 2; /* Ensure logo stays on top */
+}
+
+/* Overlay effect */
+.media-info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent); /* Fading effect */
+    color: white;
+    padding: 1rem;
+    z-index: 1; /* Ensure it stays above the image */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.date {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.caption {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Optional: Slight hover effect to make caption more visible */
+.media-card:hover .media-info {
+    opacity: 1;
+}
+
+
+@media (max-width: 1024px) {
+
+    .media-mentions {
+        padding: 1rem 1rem 1rem 2rem ;
+        max-width: 99vw; /* Prevent content from expanding beyond viewport */
+    }
+
+    .media-mentions h2 {
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+        width: 19rem;
+    }
+
+    .date {
+        font-size: 0.8rem;
+        opacity: 0.7;
+    }
+
+    .caption {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .media-mentions {
+        padding: 1rem 1rem 1rem 2rem ;
+        max-width: 143vw; /* Prevent content from expanding beyond viewport */
+    }
+
+
+    .media-mentions h2 {
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+        width: 19rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .media-mentions {
+        padding: 1rem 1rem 1rem 1rem ;
+        max-width: 100vw; /* Prevent content from expanding beyond viewport */
+    }
+
+
+    .media-mentions h2 {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+
+}

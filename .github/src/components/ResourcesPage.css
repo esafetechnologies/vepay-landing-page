@@ -1,0 +1,32 @@
+.resources-page-section{
+    margin: 0 auto; /* Centers the sections */
+    width: 100vw;
+    padding:1rem 2rem;
+}
+
+.resources-page-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.articles-section-container {
+    max-width: 1440px; /* Keeps width constant */
+    margin: 0 auto; /* Centers the sections */
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+
+@media (max-width: 1024px) {
+    .resources-page-section {
+        padding: 1.5rem;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .resources-page-section {
+        margin-top: 4rem;
+
+    }
+}

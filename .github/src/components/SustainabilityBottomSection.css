@@ -1,0 +1,106 @@
+.sustainability-bottom-section {
+    position: relative;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    min-height: 50rem;
+    margin: 0 auto;
+}
+
+.sustainability-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sustainability-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1440px; /* Ensures the content won't extend beyond 1440px */
+    width: 100%; /* Ensures it can shrink on smaller screens */
+    margin: 0 auto; /* Centers the content */
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.sustainability-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-us-page-section-hero {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+
+    .sustainability-bottom-section {
+        padding: 5rem 1.5rem;
+        min-height: 40rem;
+        margin-top: 1rem;
+
+    }
+
+    .sustainability-subheading {
+        font-size: 1rem;
+    }
+
+    .contact-us-page-section-hero {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .sustainability-bottom-section {
+        padding: 4rem 1.5rem;
+        min-height: 35rem;
+    }
+
+    .sustainability-content {
+        max-width: 90%;
+    }
+
+    .sustainability-subheading {
+        font-size: 1rem;
+    }
+
+    .contact-us-page-section-hero {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .sustainability-bottom-section {
+        padding: 4rem 1.5rem;
+        min-height: 30rem;
+        margin: 0;
+    }
+
+    .sustainability-content {
+        max-width: 100%;
+    }
+
+    .sustainability-subheading {
+        font-size: 0.9rem;
+    }
+
+    .contact-us-page-section-hero {
+        font-size: 0.8rem;
+    }
+}

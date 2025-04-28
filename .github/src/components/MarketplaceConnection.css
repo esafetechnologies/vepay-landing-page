@@ -1,0 +1,387 @@
+.marketplace-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.market-place-container-upper-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 45rem;
+    padding-bottom: 2rem;
+}
+
+.marketplace-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.marketplace-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.marketplace-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.marketplace-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: #DDE7FF;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+    height: 26rem;
+}
+
+.card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+}
+.card-image img {
+    height: auto;
+}
+
+#cardImage1 {
+    width: 15rem;
+
+}
+
+#cardImage2 {
+    width: 21rem;
+    margin-bottom: 2rem;
+
+}
+
+#cardImage3 {
+    width: 19rem;
+    margin-bottom: 4rem;
+}
+
+.card-body {
+    margin-top: 0;
+    border-radius: 0.875rem;
+    background: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(5px);
+    text-align: left;
+    padding: 1rem 1rem 2rem 1rem;
+    height: 8rem;
+
+}
+
+.card-body h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card-body p {
+    font-size: 14px;
+    color: #666;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.invoice-financing {
+    background-color: #EEF3FF;
+    color: #022C87;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+}
+
+.business-funding {
+    background-color: #022C87;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.invoice-financing:hover {
+    background-color: #DCE6FF;
+}
+
+.business-funding:hover {
+    background-color: #011F5B;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .marketplace-card-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .market-place-container-upper-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 36rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .marketplace-container{
+        padding: 0 3rem;
+    }
+    .marketplace-heading {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .marketplace-description {
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+        color: #555;
+    }
+
+    .card-body {
+        margin-top: 0;
+        border-radius: 0.875rem;
+        background: rgba(255, 255, 255, 0.61);
+        backdrop-filter: blur(5px);
+        text-align: left;
+        padding: 0.5rem 0.5rem;
+        height: 6.7rem;
+
+    }
+
+    .card-body h3 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #000000;
+    }
+
+    .card-body p {
+        font-size: 0.8rem;
+        color: #666;
+    }
+
+    .marketplace-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background: #DDE7FF;
+        border-radius: 1.2rem;
+        padding: 0.5rem;
+        text-align: center;
+        width: 90%;
+        max-width: 40rem;
+        height: 21rem;
+    }
+
+    #cardImage1 {
+        width: 12rem;
+
+    }
+
+    #cardImage2 {
+        width: 18rem;
+        margin-bottom: 2rem;
+
+    }
+
+    #cardImage3 {
+        width: 16rem;
+        margin-bottom: 4rem;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 1.5rem;
+        padding: 4rem 0rem 4rem 0rem;
+    }
+
+    .invoice-financing {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+
+    }
+
+    .business-funding {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+    }
+
+
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+
+
+    .marketplace-card-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        display: flex;
+        overflow-x: auto; /* Enables horizontal scrolling */
+        scroll-snap-type: x mandatory; /* Enables smooth scrolling */
+        width: 107% !important;
+        max-width: fit-content !important;
+        gap: 1.5rem;
+
+    }
+
+    .marketplace-card-container > * { /* Targets direct children (cards) */
+        flex: 0 0 auto; /* Prevents shrinking */
+        scroll-snap-align: start; /* Ensures proper snapping */
+    }
+
+    .marketplace-card-container::-webkit-scrollbar {
+        height: 0px; /* Adjust scrollbar height */
+    }
+
+    .marketplace-card-container::-webkit-scrollbar-thumb {
+        background-color: #888; /* Scrollbar color */
+        border-radius: 4px;
+    }
+
+    .marketplace-card-container::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    }
+
+    .market-place-container-upper-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 36rem;
+        padding-bottom: 1.5rem;
+        padding-top: 3rem;
+    }
+
+    .marketplace-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background: #DDE7FF;
+        border-radius: 1.2rem;
+        padding: 1rem;
+        text-align: center;
+        width: 90%;
+        max-width: 22rem;
+        height: 25rem;
+
+    }
+
+    #cardImage1 {
+        width: 15rem;
+
+    }
+
+    #cardImage2 {
+        width: 21rem;
+        margin-bottom: 3rem;
+
+    }
+
+    #cardImage3 {
+        width: 18rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .marketplace-container{
+        padding: 0 0;
+    }
+    .marketplace-card-container {
+        flex-direction: row;
+        justify-content: flex-start;
+        overflow-x: auto;
+        width: 90% !important;
+
+    }
+
+    .market-place-container-upper-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 36rem;
+        padding: 1rem 1.5rem 0 1.5rem;
+        text-align: left;
+    }
+
+    .marketplace-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background: #DDE7FF;
+        border-radius: 1.2rem;
+        padding: 1rem;
+        text-align: center;
+        width: 90%;
+        max-width: 22rem;
+        height: 22rem;
+    }
+
+    #cardImage1 {
+        width: 13rem;
+
+    }
+
+    #cardImage2 {
+        width: 21rem;
+        margin-bottom: 1.5rem;
+
+    }
+
+    #cardImage3 {
+        width: 18rem;
+        margin-bottom: 3rem;
+    }
+
+
+    .button-container {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+
+    .invoice-financing {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+
+    }
+
+    .business-funding {
+        padding: 0.8rem 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 0.5rem;
+    }
+
+}
