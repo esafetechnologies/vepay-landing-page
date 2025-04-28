@@ -41,12 +41,12 @@ const Footer = () => {
                 <p>
                     Developed by{" "}
                     <a
-                        href="https://darxforge.com/"
+                        href="https://esafe.technologies"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="footer-dev-link"
                     >
-                        Darxforge
+                        ESafe Technologies
                     </a>
                 </p>
             </div>
