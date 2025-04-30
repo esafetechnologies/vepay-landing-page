@@ -34,7 +34,7 @@ const InvestmentCalculator = () => {
                         </div>
                         <input
                             type="range"
-                            min="10000"
+                            min="50000"
                             max="100000000"
                             step="10000"
                             value={initialInvestment}
