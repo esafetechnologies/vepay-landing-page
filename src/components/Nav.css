@@ -54,7 +54,7 @@
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 
@@ -63,7 +63,7 @@
     color: #333;
     font-size: 15px;
     transition: color 0.3s;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .nav-links li a:hover {
