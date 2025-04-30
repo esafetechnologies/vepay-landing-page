@@ -107,10 +107,11 @@ const InvoiceFinancingPage = () => {
                     subheading="Invoice Financing"
                     heading="Turn Your Invoices into Instant Cash!"
                     description="Unlock Your Funding in Just 24 Hours with VePay. Zero Interest, Zero Hidden Fees – Pure, Instant, Interest-Free Financing for Your eCommerce Growth."
-                    buttonText="Get Funded"
+                    buttonText="Get Instant Funding Now"
                     imageSrc={invoiceFinancingImage}
                     bgSizeMd="contain"
                     bgSizeLg="76rem"
+                    link="/contact-us"
 
                 />
             </div>
@@ -140,6 +141,7 @@ const InvoiceFinancingPage = () => {
                              No Interest, No Hidden Fees – Just Immediate, Interest Free Financing for Your eCommerce Business"
                 buttonText="Get funded"
                 backgroundImage={invoiceFinancingSustainabilityBg}
+                link='https://dev.vepay.io/onboarding'
             />
             <FaqSection faqs={faqs} />
         </>

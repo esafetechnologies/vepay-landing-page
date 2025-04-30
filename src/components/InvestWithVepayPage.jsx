@@ -135,6 +135,7 @@ const InvestWithVepayPage = () => {
                     imageSrc={investWithVepayBgImage}
                     bgSizeMd="contain"
                     bgSizeLg="79rem"
+                    link="/contact-us"
 
                 />
             </div>
@@ -144,7 +145,7 @@ const InvestWithVepayPage = () => {
                 description="At VePay, we’ve made it fast and effortless to get funded. In just three easy steps, connect your eCommerce business and access the working capital you need – instantly."
                 cardData={cardDataInvestWithVepayPage}
                 buttonText="Invest Ethically Today!"
-                buttonLink="#"
+                buttonLink="/contact-us"
             />
 
             <HowWork
@@ -167,6 +168,7 @@ const InvestWithVepayPage = () => {
                 description="Join the VePay investor community and empower small businesses while enjoying strong, ethical returns. Whether you’re investing for faith-based reasons or to diversify your portfolio, VePay is here to help you grow your wealth responsibly."
                 buttonText="Invest Now!"
                 backgroundImage={readyToMakeImpactSectionBg}
+                link="/contact-us"
             ></ReadyToMakeImpactSection>
             <FaqSection faqs={faqs} />
 

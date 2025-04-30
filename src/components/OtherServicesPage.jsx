@@ -130,6 +130,7 @@ const OtherServicesPage = () => {
                     imageSrc={otherServicesHeroBgImage}
                     bgSizeMd="contain"
                     bgSizeLg="84rem"
+                    link="/contact-us"
 
                 />
             </div>

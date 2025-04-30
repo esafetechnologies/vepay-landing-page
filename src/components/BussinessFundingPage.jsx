@@ -117,10 +117,11 @@ const BussinessFundingPage = () => {
                     heading="Power Up Your Growth with Flexible Business Financing!"
                     description="Unlock up to 5 months of revenue today.
                                  No interest, no hidden fees – just smart financing tailored for you."
-                    buttonText="Get Instant Quote"
+                    buttonText="Start Growing Your Business Today"
                     imageSrc={bussinessFundingBgImage}
                     bgSizeMd="contain"
                     bgSizeLg="79rem"
+                    link="https://dev.vepay.io/onboarding"
 
                 />
             </div>
@@ -152,6 +153,7 @@ const BussinessFundingPage = () => {
                 description="Its Fast, interest-free funding with flexible repayment options tailored to your eCommerce needs."
                 buttonText="Get funded"
                 backgroundImage={bussinessFundingSustainabilityBg}
+                link="https://dev.vepay.io/onboarding"
             />
             <FaqSection faqs={faqs}/>
 

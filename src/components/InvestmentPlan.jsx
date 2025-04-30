@@ -2,11 +2,11 @@ import "./InvestmentPlan.css";
 
 const InvestmentPlan = ({ heading, description }) => {
     const tableData = [
-        { term: "6 Months", investment: "$20,000", roi: "--", distribution: "Quarterly" },
-        { term: "12 Months", investment: "$20,000", roi: "--", distribution: "Quarterly" },
-        { term: "18 Months", investment: "$20,000", roi: "--", distribution: "Quarterly" },
-        { term: "24 Months", investment: "$20,000", roi: "--", distribution: "Quarterly" },
-        { term: "36 Months", investment: "$20,000", roi: "--", distribution: "Quarterly" },
+        { term: "6 Months", investment: "$50,000", roi: "6.76%", distribution: "13.51% Quarterly" },
+        { term: "12 Months", investment: "$50,000", roi: "8.63%", distribution: "14.00% Quarterly" },
+        { term: "18 Months", investment: "$50,000", roi: "10.26%", distribution: "15.02% Quarterly" },
+        { term: "24 Months", investment: "$50,000", roi: "11.17%", distribution: "15.58% Quarterly" },
+        { term: "36 Months", investment: "$50,000", roi: "12.46%", distribution: "16.96% Quarterly" },
     ];
     return (
         <section className="invest-plan-container">

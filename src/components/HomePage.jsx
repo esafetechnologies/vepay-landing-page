@@ -50,6 +50,7 @@ const HomePage = () => {
                 description="At VePay, we're redefining the future of eCommerce by combining sustainability with innovation. Our commitment to ethical, interest-free factoring empowers eCommerce sellers to thrive while aligning with their values."
                 buttonText="Explore More!"
                 backgroundImage={sustainabilityBg}
+                link="/sustainability"
             />
             <div className="media-mentions-container">
 

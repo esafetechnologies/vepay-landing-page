@@ -1,7 +1,9 @@
 import React from "react";
 import './ReadyToMakeImpactSection.css';
 
-const ReadyToMakeImpactSection = ({ heading, description, buttonText, backgroundImage }) => {
+const ReadyToMakeImpactSection = ({ heading, description, buttonText, backgroundImage, link }) => {
+    const handleClick = () => {
+        window.location.href = link};
     return (
         <section className="impact-section" style={{backgroundImage: `url(${backgroundImage})`}}>
             <div className="impact-overlay"></div>
@@ -11,7 +13,7 @@ const ReadyToMakeImpactSection = ({ heading, description, buttonText, background
                         <h2 className="impact-heading fade-in">{heading}</h2>
                         <p className="impact-description fade-in">{description}</p>
                     </div>
-                    <button className="impact-button">{buttonText}</button>
+                    <button className="impact-button" onClick={handleClick}>{buttonText}</button>
                 </div>
             </div>
         </section>

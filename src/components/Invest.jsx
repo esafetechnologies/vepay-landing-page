@@ -2,7 +2,7 @@ import "./Invest.css"; // Importing the CSS file
 
 import React from "react";
 
-const Invest = ({ subheading, heading, description, buttonText, imageSrc, bgSizeMd, bgSizeLg, link = "https://dev.vepay.io/login" }) => {
+const Invest = ({ subheading, heading, description, buttonText, imageSrc, bgSizeMd, bgSizeLg, link }) => {
     const sectionStyle = {
         backgroundImage: imageSrc ? `url(${imageSrc})` : "none",
         backgroundSize: bgSizeMd || "50rem",
