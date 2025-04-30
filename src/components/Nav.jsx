@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./Nav.css"; // Import the CSS file
 import navBarLogo from '../assets/vepay-logo-light.png';
+import loginicon from '../assets/icon-person.svg'
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -23,13 +24,18 @@ const Nav = () => {
                         <li><a href="/other-services">Other Services</a></li>
                         <li><a href="/sustainability">Sustainability</a></li>
                         <li><a href="/resources">Insights</a></li>
+                        <li><a href="/contact-us">Contact Us </a></li>
 
                         {/* Move Contact Us button inside the mobile menu */}
                         <li className="nav-contact-btn">
-                            <a href="/contact-us">
-                                <button className="nav-button">Contact Us</button>
+                            <a href="https://dev.vepay.io/onboarding">
+                                <button className="nav-button">Get Started</button>
                             </a>
                         </li>
+                        <div className="login-icon">
+                           <a href="https://dev.vepay.io/login"><img src={loginicon} alt="VePay Logo" /></a>
+                        </div>
+                        
                     </ul>
 
                     {/* Hamburger Menu */}
