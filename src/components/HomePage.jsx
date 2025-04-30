@@ -11,6 +11,8 @@ import SustainabilitySection from "./SustainabilitySection.jsx";
 import sustainabilityBg from "../assets/sustainability-section-bg.jpg";
 import MediaMentions from "./MediaMentions.jsx";
 import LatestArticles from "./LatestArticles.jsx";
+import PartnersSection from "./PartnersSection.jsx";
+
 
 const HomePage = () => {
     return (
@@ -24,6 +26,10 @@ const HomePage = () => {
             <VeCardSection></VeCardSection>
             <VePayCheckingSection></VePayCheckingSection>
             <MarketplaceConnection></MarketplaceConnection>
+            <div className="Partners-section">
+                <PartnersSection></PartnersSection>
+            </div>
+        
             <div className="invest-section-hero">
                 <Invest
                     subheading="Invest with VePay"

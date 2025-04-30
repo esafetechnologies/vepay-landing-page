@@ -8,7 +8,7 @@ const Hero = () => {
                     Empower Your <span>eCommerce</span> Growth with Interest-Free Financing
                 </h1>
                 <p className="fade-in">Fast, Transparent, Ethical Solutions for Your Business Success</p>
-                <button className="hero-button fade-in-up" onClick={() => window.open("https://dev.vepay.io/login", "_blank")}>Start Your Journey Today</button>
+                <button className="hero-button fade-in-up" onClick={() => window.open("https://dev.vepay.io/onboarding", "_blank")}>Start Your Journey Today</button>
             </div>
 
             {/* Image (Hidden on Mobile) */}

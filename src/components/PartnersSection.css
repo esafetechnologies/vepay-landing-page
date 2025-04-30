@@ -1,0 +1,45 @@
+.partners-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .partners-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .partners-subtext {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .partners-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .partner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120px;
+  }
+  
+  .partner-item img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .partner-item p {
+    font-size: 0.9rem;
+    color: #333;
+  }
+  

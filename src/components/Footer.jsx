@@ -38,17 +38,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
                 <p>&copy; 2025 Vepay. All rights reserved.</p>
-                <p>
-                    Developed by{" "}
-                    <a
-                        href="https://esafe.technology"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="footer-dev-link"
-                    >
-                        ESafe Technologies
-                    </a>
-                </p>
+              
             </div>
 
 
