@@ -32,6 +32,9 @@ const Footer = () => {
                     <a href="https://www.instagram.com/vepayinc/" target="_blank" rel="noopener noreferrer">
                         <img src={socialMediaLogo3} alt="Logo 3" className="footer-social-logo"/>
                     </a>
+                    <a href="https://ca.linkedin.com/company/vepayinc" target="_blank" rel="noopener noreferrer">
+                        <img src={socialMediaLogo4} alt="Logo 3" className="footer-social-logo"/>
+                    </a>
                 </div>
 
             </div>

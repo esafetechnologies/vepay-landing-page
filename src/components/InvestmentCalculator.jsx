@@ -42,14 +42,14 @@ const InvestmentCalculator = () => {
                         />
                     </div>
 
-                    <div className="slider-container">
+                   <div className="slider-container">
                         <div className="slider-label fade-in">
                             <p className="fade-in">Monthly Investment</p>
                             <div className="monthly-investment-value fade-in">${monthlyInvestment.toLocaleString()}</div>
                         </div>
                         <input
                             type="range"
-                            min="0"
+                            min=""
                             max="100000000"
                             step="10000"
                             value={monthlyInvestment}

@@ -29,7 +29,7 @@ const Nav = () => {
                         {/* Move Contact Us button inside the mobile menu */}
                         <li className="nav-contact-btn">
                             <a href="https://dev.vepay.io/onboarding">
-                                <button className="nav-button">Get Started</button>
+                                <button className="nav-button">Get Funded</button>
                             </a>
                         </li>
                         <div className="login-icon">
