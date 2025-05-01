@@ -59,7 +59,7 @@
   
   /* shake keyframes */
 
-@keyframes shake {
+/*@keyframes shake {
   0%   { transform: translateX(0); }
   20%  { transform: translateX(-3px); }
   40%  { transform: translateX(3px); }
@@ -72,7 +72,7 @@
 
 
 /* Add shake animation with staggered delay */
-.partner-item img {
+/*.partner-item img {
   width: 100px;
   height: auto;
   object-fit: contain;
@@ -81,7 +81,7 @@
 }
 
 /* Staggered delay for wave effect */
-.partner-item:nth-child(1) img { animation-delay: 0s; }
+/*.partner-item:nth-child(1) img { animation-delay: 0s; }
 .partner-item:nth-child(2) img { animation-delay: 0.2s; }
 .partner-item:nth-child(3) img { animation-delay: 0.4s; }
 .partner-item:nth-child(4) img { animation-delay: 0.6s; }
