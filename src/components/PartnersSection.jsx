@@ -37,13 +37,13 @@ const PartnersSection = () => {
                     <p>DHL</p>
                 </div>
                 <div className="partner-item">
-                    <img src={partner6} alt="Wayfair" />
+                    <img src={partner6} alt="Greensfin" />
                     <p>Greensfin</p>
                 </div><div className="partner-item">
-                    <img src={partner7} alt="Wayfair" />
+                    <img src={partner7} alt="Project E Agency" />
                     <p>Project E Agency</p>
                 </div><div className="partner-item">
-                    <img src={partner8} alt="Wayfair" />
+                    <img src={partner8} alt="Pingpong" />
                     <p>Pingpong</p>
                 </div>
             </div>

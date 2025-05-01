@@ -17,13 +17,24 @@
     margin-bottom: 2rem;
   }
   
+
+
+  @keyframes shake {
+    0%   { transform: translateX(0); }
+    20%  { transform: translateX(-3px); }
+    40%  { transform: translateX(3px); }
+    60%  { transform: translateX(-2px); }
+    80%  { transform: translateX(2px); }
+    100% { transform: translateX(0); }
+  }
+
   .partners-logos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
-  }
-  
+    gap: 30px;
+
+ 
   .partner-item {
     display: flex;
     flex-direction: column;
@@ -42,4 +53,39 @@
     font-size: 0.9rem;
     color: #333;
   }
+
+
+
   
+  /* shake keyframes */
+
+@keyframes shake {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(-3px); }
+  40%  { transform: translateX(3px); }
+  60%  { transform: translateX(-2px); }
+  80%  { transform: translateX(2px); }
+  100% { transform: translateX(0); }
+}
+
+
+
+
+/* Add shake animation with staggered delay */
+.partner-item img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+  animation: shake 4.5s ease-in-out infinite;
+}
+
+/* Staggered delay for wave effect */
+.partner-item:nth-child(1) img { animation-delay: 0s; }
+.partner-item:nth-child(2) img { animation-delay: 0.2s; }
+.partner-item:nth-child(3) img { animation-delay: 0.4s; }
+.partner-item:nth-child(4) img { animation-delay: 0.6s; }
+.partner-item:nth-child(5) img { animation-delay: 0.8s; }
+.partner-item:nth-child(6) img { animation-delay: 0.1s; }
+.partner-item:nth-child(7) img { animation-delay: 1.2s; }
+.partner-item:nth-child(8) img { animation-delay: 1.4s; }
