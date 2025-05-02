@@ -1,5 +1,5 @@
 import './InvoiceFinancingPage.css';
-import Invest from "./Invest.jsx";
+import Invest from "./Invest.jsx"
 import invoiceFinancingImage from "../assets/invoice-financing-hero-image.png";
 import SustainabilitySection from "./SustainabilitySection.jsx";
 import invoiceFinancingSustainabilityBg from "../assets/invoice-financing-sustainability-bg.png"
