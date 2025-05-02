@@ -1,5 +1,5 @@
 import "./PartnersSection.css";// import "./PartnersSection.css";
-import partner1 from "../assets/amazonpartner.png";
+import partner1 from "../assets/Amazonpartner.png";
 import partner2 from "../assets/usmanico.png";
 import partner3 from "../assets/inpay.png";
 import partner4 from "../assets/shipbob.png";
