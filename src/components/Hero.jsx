@@ -5,7 +5,7 @@ const Hero = () => {
         <section className="hero">
             <div className="hero-content">
                 <h1 className="fade-in">
-                Unlock 70% of Your <span>eCommerce Sales Instantly</span> No Interest, No Waiting
+                Unlock 70% of Your <span>eCommerce </span> Sales Instantly No Interest, No Waiting
 
                 </h1>
                 <p className="fade-in">Fast, Transparent, Ethical Solutions for Your Business Success</p>
