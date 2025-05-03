@@ -1,5 +1,4 @@
 import './HomePage.css';
-
 import Hero from "./Hero.jsx";
 import HeroSectionCards from "./HeroSectionCards.jsx";
 import VeCardSection from "./VeCardSection.jsx";
