@@ -73,6 +73,9 @@
     padding: 1.2rem;
     font-size: 1rem;
     background-color: white;
+    color: black;
+    font-weight: 70;
+    
 }
 
 .input-box span {

@@ -24,7 +24,7 @@ const InvestmentPlan = ({ heading, description }) => {
                             <tr>
                                 <th className="fade-in">Investment Term</th>
                                 <th className="fade-in">Minimum Investment</th>
-                                <th className="fade-in">Average ROI (Annual)</th>
+                                <th className="fade-in">Expected ROI (Annual)</th>
                                 <th className="fade-in">Profit Distribution</th>
                             </tr>
                             </thead>
