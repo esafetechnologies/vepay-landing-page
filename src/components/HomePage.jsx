@@ -51,11 +51,14 @@ const HomePage = () => {
                 backgroundImage={sustainabilityBg}
                 link="/sustainability"
             />
+            
             <div className="media-mentions-container">
 
                 <MediaMentions></MediaMentions>
 
             </div>
+
+
             <div className="articles-section-container">
 
                 <LatestArticles></LatestArticles>

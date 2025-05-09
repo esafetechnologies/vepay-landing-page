@@ -76,7 +76,12 @@ const MarketplaceConnection = () => {
                     </div>
                 </div>
             </div>
+        
+            <div className="gyu" > <h1>Start Growing your Business Today</h1> </div>
+
+        
             <div className="button-container">
+            
                 <button className="invoice-financing" onClick={() => window.location.href = "/invoice-financing"}>Invoice Financing</button>
                 <button className="business-funding"  onClick={() => window.location.href = "/bussiness-funding"}>Business Funding</button>
             </div>

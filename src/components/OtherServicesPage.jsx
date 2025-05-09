@@ -52,18 +52,18 @@ const OtherServicesPage = () => {
 
     const cardDataInvestWithVepayPage = [
         {
-            title: "VeCard",
-            description: "Lorem ipsum dolor sit amet consectetur. In eget arcu volutpat risus et. Neque tempus nisl lectus sit gravid",
+            title: "VeCard – Instant Access to Your Earnings ",
+            description: "No more waiting days for bank transfers. With VeCard, you can instantly access your VePay funds, make purchases, or withdraw cash wherever you are. It's secure, seamless, and tailored for eCommerce entrepreneurs on the move. Stay tuned for more update.",
             link: "VeCard"
         },
         {
-            title: "VeAnalytiX",
-            description: "Lorem ipsum dolor sit amet consectetur. In eget arcu volutpat risus et. Neque tempus nisl lectus sit gravid",
+            title: "Checking Account – Business Banking, Reimagined ",
+            description: "Simplify your financial operations with a dedicated VePay Checking Account. Receive payments, manage expenses, and streamline your business banking with a secure, interest-free account built for eCommerce needs.",
             link: "VeAnalytiX"
         },
         {
-            title: "Checking Account",
-            description: "Lorem ipsum dolor sit amet consectetur. In eget arcu volutpat risus et. Neque tempus nisl lectus sit gravid",
+            title: "Checking Account – Business Banking, Reimagined ",
+            description: "Your numbers tell a story — and VeAnalytiX helps you read it. From sales trends and return patterns to marketplace performance and funding insights, VeAnalytiX gives you powerful, real-time analytics to scale smarter and faster. Stay tuned for more update.  ",
             link: "Checking Account"
         }
     ];
@@ -126,7 +126,7 @@ const OtherServicesPage = () => {
                     heading="Empower Your eCommerce Growth with VePay"
                     description="At VePay, we’re not just providing financing – we’re redefining the way you manage your business. From fast access to funds to cutting-edge analytics.
 "
-                    buttonText="Invest Now!"
+                    buttonText=""
                     imageSrc={otherServicesHeroBgImage}
                     bgSizeMd="contain"
                     bgSizeLg="84rem"
@@ -136,8 +136,8 @@ const OtherServicesPage = () => {
             </div>
 
             <WhyChooseAdvanced
-                title="Value Added Services"
-                description="Lorem ipsum dolor sit amet consectetur. In eget arcu volutpat risus et. Neque tempus nisl lectus sit gravida aliquam sapien. Nam ultrices nunc urna gravida risus sed nulla commodo quis. Erat nulla aliquet eu et."
+                title="Smart Tools for Smarter eCommerce Growth "
+                description="VePay goes beyond funding. We offer a suite of intelligent tools designed to give eCommerce sellers full control over their cash flow, spending, and financial insights — all in one seamless platform. Whether you're managing payouts, tracking performance, or scaling faster, our services are built with your business in mind. "
                 cardData={cardDataInvestWithVepayPage}
 
             />
