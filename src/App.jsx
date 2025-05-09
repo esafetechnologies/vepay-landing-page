@@ -19,6 +19,8 @@ import ReactPixel from "react-facebook-pixel";
 import {applyScrollAnimation} from "./scrollAnimation.js";
 import ResourcesPage from "./components/ResourcesPage.jsx";
 import TermsAndConditions from "./components/TermsAndConditions.jsx";
+import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
+
 
 function App() {
 
@@ -56,6 +58,7 @@ function App() {
               <Route path="/resources" element={<ResourcesPage />} />
               <Route path="/contact-us" element={<ContactUsPage />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
 
           <div className="footer-section-container">
