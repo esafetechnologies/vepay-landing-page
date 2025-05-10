@@ -6,6 +6,7 @@ const HowWork = ({title, subtext, steps, buttonPrimaryText, buttonSecondaryText}
             <div className="howwork-header">
                 <h2 className="howwork-title fade-in-up">{title}</h2>
                 <p className="howwork-subtext fade-in-up">{subtext}</p>
+                
             </div>
             <div className="howwork-steps">
                 {steps.map((step, index) => (

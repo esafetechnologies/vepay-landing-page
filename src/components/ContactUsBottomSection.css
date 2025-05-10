@@ -114,6 +114,32 @@
     min-height: 120px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #374151; /* Tailwind: text-gray-700 */
+    margin-bottom: 1.rem;
+}
+
+.form-group select {
+    appearance: none;
+    background-color: #374151;
+    border: 1px solid #D1D5DB; /* Tailwind: border-gray-300 */
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    color: #e0e3e9; /* Tailwind: text-gray-900 */
+    transition: border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+
 .contact-us-button {
     background-color: #022c87;
     color: #fff;

@@ -28,7 +28,7 @@ const InvestWithVepayPage = () => {
             image: howWorkImg5,
             altText: "Choose Your Investment",
             heading: "Choose Your Investment",
-            description: "",
+            description: "Select a plan aligned with your risk profile and goals.",
             customClass: "custom-img-1" // Unique class for this image
 
         },
@@ -36,7 +36,7 @@ const InvestWithVepayPage = () => {
             image: howWorkImg6,
             altText: "Initial Investment ",
             heading: "Initial Investment ",
-            description: "",
+            description: "Your capital is deployed into vetted eCommerce factoring opportunities.",
             customClass: "custom-img-2" // Unique class for this image
 
         },
@@ -44,7 +44,7 @@ const InvestWithVepayPage = () => {
             image: howWorkImg7,
             altText: "Receive Quarterly Distributions",
             heading: "Receive Quarterly Distributions",
-            description: "",
+            description: "Receive your share of profits every quarter, transparently and on time. ",
             customClass: "custom-img-3" // Unique class for this image
 
         },
@@ -52,7 +52,7 @@ const InvestWithVepayPage = () => {
             image: howWorkImg3,
             altText: "Watch Your Investment Grow or Withdraw Your Balance",
             heading: "Watch Your Investment Grow or Withdraw Your Balance",
-            description: ""
+            description: "Track performance and see the impact of your capital. "
 
         }
     ];
@@ -129,8 +129,6 @@ const InvestWithVepayPage = () => {
                 <Invest
                     subheading="Invest with VePay"
                     heading="Empower Growth. Invest Ethically."
-                    description="Invest in the future of eCommerce and support small businesses that drive the global economy – with ethical returns you can trust. No interest,
-                                no hidden fees – just smart financing tailored for you."
                     buttonText="Invest Now!"
                     imageSrc={investWithVepayBgImage}
                     bgSizeMd="contain"
@@ -149,12 +147,16 @@ const InvestWithVepayPage = () => {
             />
 
             <HowWork
-                title="How InstaPay Work?"
-                subtext="At VePay, we’ve made it fast and effortless to get funded. In just three easy steps, connect your eCommerce business and access the working capital you need – instantly."
+                title="Invest with Purpose. Grow with Confidence. "
+                subtext="At VePay, your capital does more than earn returns—it empowers real eCommerce businesses. With our Shariah-compliant, interest-free investment model, you get to choose how you invest based on your risk appetite and financial goals. We put your funds to work through ethical, asset-backed financing, delivering quarterly profit distributions and measurable impact."
                 steps={steps}
+                description="At VePay, we’ve made it fast and effortless to get funded. In just three easy steps, connect your eCommerce business and access the working capital you need – instantly."
                 buttonPrimaryText=""
                 buttonSecondaryText=""
             />
+            
+            <h2 className="And-be-part">Invest in VePay — and be part of a smarter, fairer financial future. </h2>
+           
             <div className="investment-plan-section">
             <InvestmentPlan></InvestmentPlan>
             </div>

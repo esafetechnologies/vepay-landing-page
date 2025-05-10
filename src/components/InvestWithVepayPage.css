@@ -13,7 +13,15 @@
     background-color: #022C87;
 
 }
-
+.And-be-part{
+    max-width: 100%; /* Keeps width constant */
+    margin-top: -50px; /* Centers the sections */
+    margin-bottom: 100px;
+    width: 100%;
+    padding: 2rem;
+    color: #756d6d; 
+    font-size: 1rem;
+}
 
 .custom-img-1 {
     width: 16rem !important;

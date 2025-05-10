@@ -143,7 +143,7 @@ const BussinessFundingPage = () => {
                 <CalculateFunding></CalculateFunding>
             </div>
             <EligibilitySection
-                heading="Is InstaPay Right for You?"
+                heading="Is VeFund Right for You?"
                 description="At VePay, we’ve made it fast and effortless to get funded. In just three easy steps, connect your eCommerce business and access the working capital you need – instantly."
                 cards={cardsEligibilitySection}
             />

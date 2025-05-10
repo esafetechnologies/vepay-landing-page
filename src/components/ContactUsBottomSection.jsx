@@ -19,13 +19,13 @@ const ContactUsBottomSection = () => {
                         </div>
                         <div className="contact-us-card fade-in">
                             <h3>Canada Office Hours</h3>
-                            <p>8502 Preston Rd. Ingle, Maine 98380, USA</p>
+                            <p>Canada: 1771 Robson Street Vancouver, British Columbia Canada </p>
                         </div>
                     </div>
                     <div className="contact-us-card-col-2 fade-in">
                         <div className="contact-us-card fade-in">
                             <h3>Our Address</h3>
-                            <p>8502 Preston Rd. Ingle, Maine 98380, USA</p>
+                            <p>US: 400 Rella Blvd ste. 207-732 Montebello, NY 10901 United States </p>
                         </div>
                         <div className="contact-us-card fade-in">
                             <h3>Get In Touch</h3>
@@ -48,6 +48,19 @@ const ContactUsBottomSection = () => {
                         <label>Email address</label>
                         <input type="email" placeholder="Enter your email"/>
                     </div>
+                <div className="form-group">
+                   <label htmlFor="contactPurpose">Reason for Contact</label>
+                   <select id="contactPurpose" className="form-control">
+                   <option value="" disabled selected>Select a reason</option>
+                   <option value="instapay">InstaPay (Instant Funding)</option>
+                   <option value="vefund">VeFund (Business Financing)</option>
+                   <option value="investment">Investment Opportunities</option>
+                   <option value="services">Service Inquiries (VeCard, Checking, Analytics)</option>
+                   <option value="partnership">Partnership Opportunities</option>
+                   <option value="careers">Careers at VePay</option>
+                   </select>
+                </div>
+
                     <div className="form-group">
                         <label>Write your message</label>
                         <textarea placeholder="Write us your question here..."></textarea>
