@@ -1,6 +1,6 @@
 // scrollAnimation.js
 export function applyScrollAnimation() {
-    const elements = document.querySelectorAll(".fade-in, .fade-in-up");
+    const elements = document.querySelectorAll(".fade-in, .fade-in-up, .no ");
 
     const observer = new IntersectionObserver(
         (entries) => {

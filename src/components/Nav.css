@@ -108,6 +108,12 @@
     font-weight: 500;
 }
 
+.dropdown-title {
+    color: #333;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
 .nav-button:hover {
     background-color: #0056b3;
 }

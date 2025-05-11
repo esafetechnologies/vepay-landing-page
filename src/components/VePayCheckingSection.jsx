@@ -20,7 +20,7 @@ const VePayCheckingSection = () => {
                         international transfers to 195 countries from your wallet. Reduce
                         cross-border costs with VePay’s seamless checking account.
                     </p>
-                    <button className="vepay-button" onClick={() => window.open("https://dev.vepay.io/login", "_blank")}>Sign Up for Early Access</button>
+                    <button className="vepay-button" onClick={() => window.open("/contact-us")}>Sign Up for Early Access</button>
                 </div>
             </div>
         </section>

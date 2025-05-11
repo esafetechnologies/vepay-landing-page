@@ -46,7 +46,12 @@
     color: white;
     font-weight: 700;
     text-align: left;
+    
 
+}
+.no {
+    overflow: no-wrap;
+    font-size: 50px
 }
 /* Hero Heading Styling */
 .hero-heading {
@@ -73,10 +78,15 @@
     font-weight: 400;
     color: white;
 }
-
-.hero-title-sub span {
-    color: #81d8ff; /* eCommerce highlight */
+.ecommerce {
+    color: rgb(37, 208, 214);
 }
+.no {
+    overflow:no-wrap;
+}
+
+
+
 
 /* Responsive Font Adjustments */
 @media (max-width: 767px) {
@@ -281,7 +291,10 @@
         font-size: 1.8rem;
         text-align: center;
     }
-
+    .hero-content h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
     .hero-content p {
         font-size: 0.8rem;
         margin: 2rem 0;

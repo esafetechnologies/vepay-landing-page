@@ -96,16 +96,19 @@ const BussinessFundingPage = () => {
         }
     ];
     const faqs = [
-        {
-            question: "Q. What payment methods do you accept?",
-            answer: "We accept credit cards, PayPal, and bank transfers."
-        },
-        {
-            question: "Q. How long does shipping take?",
-            answer: "Shipping takes 3-5 business days, depending on your location."
-        },
-        {question: "Q. Can I return a product?", answer: "Yes, you can return products within 30 days of purchase."},
-        {question: "Q. Do you offer international shipping?", answer: "Yes, we ship to most countries worldwide."}
+        {question: "Q. How much funding can I access through InstaPay? ",answer: "InstaPay advances up to 70% of your net receivables. Whether it’s a small or large invoice, the percentage remains consistent, giving you predictable and flexible access to capital. The final funding amount is subject to your sales performance and account health. "},
+        {question: "Q. Are there any hidden fees or interest charges with InstaPay? ",answer: "No. InstaPay is built on transparency and Shariah principles. We charge a clear, fixed fee for the service—no compounding interest, no late penalties, and no hidden costs. "},
+        {question: "Q. How do I repay the advance from InstaPay? ", answer: "Repayment is automatically deducted from your future receivables. There are no fixed schedules, EMIs, or pressure—just a simple “pay-as-you-receive” model aligned with your cash flow. This makes the process smooth and stress-free. "},
+        {question: "Q. Is InstaPay available for non-Amazon sellers? ", answer: "Yes, absolutely. Our entire model has been structured in consultation with qualified Shariah scholars to ensure full compliance with Islamic financial principles. There are no interest charges or unethical practices—just fair, transparent access to capital. You can learn more about our Shariah compliance standards on our website or by contacting our team. "},
+        {question: "Q. Is InstaPay Shariah-compliant? ", answer: "Currently, InstaPay is available only for Amazon sellers, but we’re actively working to integrate with more eCommerce platforms such as Shopify and Walmart. Follow us on our social media channels to stay updated as we expand to serve more sellers globally. "},
+        {question: "Q. Do I need to provide KYC documents?  ", answer: "Yes. As part of our onboarding and compliance process, we require basic KYC (Know Your Customer) documentation such as identity verification and business registration details. This helps us ensure security, trust, and compliance with financial regulations. "},
+        {question: "Q. Which countries is InstaPay available in? ", answer: "InstaPay is currently available to sellers operating in selected regions with Amazon marketplaces. If you're unsure whether your country is supported, please reach out to our support team or check our website for the most up-to-date availability list. "},
+
+
+            // Add more FAQs as needed
+    
+    
+    
     ];
 
 

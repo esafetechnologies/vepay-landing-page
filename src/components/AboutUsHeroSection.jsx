@@ -7,7 +7,7 @@ const AboutUsHeroSection = () => {
             <h3 className="about-subheading fade-in">About Us</h3>
             <div className="about-content fade-in">
                 <h2 className="about-heading fade-in">
-                    Founded in 2022, VePay is a Canadian FinTech leader providing ethical,
+                    Founded in 2022, VePay is a Global FinTech leader providing ethical,
                     Shariah-compliant factoring solutions to empower eCommerce businesses.
                 </h2>
                 <p className="about-description fade-in">

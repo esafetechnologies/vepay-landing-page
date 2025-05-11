@@ -21,7 +21,7 @@ const PartnersSection = () => {
         { src: partner3, alt: "Shopify", name: "Shopify" },
         { src: partner4, alt: "Wayfair", name: "Wayfair" },
         { src: partner5, alt: "Pingpong", name: "Pingpong" },
-        { src: partner6, alt: "Usmanico", name: "Usmanico" },
+        { src: partner6, alt: "Usmanico", name: "Usmani & Co" },
         { src: partner7, alt: "DHL", name: "DHL" },
         { src: partner8, alt: "Inpay", name: "Inpay" },
         { src: partner9, alt: "Greensfin", name: "Greensfin" }

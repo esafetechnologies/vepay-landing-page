@@ -78,6 +78,20 @@
     font-size: 1.2rem;
 }
 
+.highlight-return {
+    background-color: #0096DA; /* Teal from your ESafe colors */
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+
+
+
+
 
 /* Responsive Design */
 @media (max-width: 1024px) {

@@ -94,10 +94,10 @@ const InvoiceFinancingPage = () => {
     ];
 
     const faqs = [
-        { question: "Q. What payment methods do you accept?", answer: "We accept credit cards, PayPal, and bank transfers." },
-        { question: "Q. How long does shipping take?", answer: "Shipping takes 3-5 business days, depending on your location." },
-        { question: "Q. Can I return a product?", answer: "Yes, you can return products within 30 days of purchase." },
-        { question: "Q. Do you offer international shipping?", answer: "Yes, we ship to most countries worldwide." }
+        { question: "Q. What is InstaPay? ", answer: "InstaPay is a Shariah-compliant factoring solution offered by VePay that gives Amazon eCommerce sellers fast access to working capital. By advancing up to 70% of your net invoice value, InstaPay helps you meet immediate business needs—such as restocking inventory or boosting marketing—without incurring any interest-based charges. It’s ethical, transparent, and tailored to support your growth. " },
+        { question: "Q. How quickly can I access funds after completing my VePay onboarding and billing an invoice? ", answer: "Once your onboarding is successfully completed and your invoice is generated, you can receive up to 70% of your net invoice value within a few hours. The remaining amount—after deducting our fixed fee and any applicable marketplace charges—is paid out once the marketplace settles your invoice." },
+        { question: "Q. How do I qualify for InstaPay? ", answer: "To be eligible for InstaPay, you must meet the following criteria: # Verified Amazon seller account # Minimum average sales of $5,000 per month over the past 6 months # At least 6 months of consistent sales history # Return rate under 15% over the past 6 months These criteria help us assess the stability of your business and minimize risk, ensuring we can offer you the best possible funding terms. " },
+        
     ];
 
     return (
