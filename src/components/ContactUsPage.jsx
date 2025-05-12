@@ -1,7 +1,7 @@
 import './ContactUsPage.css';
 
 import Invest from "./Invest.jsx";
-import sustainabilityPageHeroBgImage from "../assets/sustainability-page-hero-bg.svg";
+import sustainabilityPageHeroBgImage from "../assets/contactus.png";
 import ContactUsBottomSection from "./ContactUsBottomSection.jsx";
 
 

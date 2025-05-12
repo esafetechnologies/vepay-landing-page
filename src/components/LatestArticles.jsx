@@ -13,18 +13,18 @@ import arrowRight from "../assets/arrow-right.png"
 
 
 const articles = [
-    { id: 1, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "#" },
-    { id: 2, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "#" },
-    { id: 3, image: articleImg3, title: "Amazon’s Big Spring Sale", description: "Amazon’s major spring sale event kicks off March 20.", date: "March 1, 2025", link: "#" },
-    { id: 4, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "#" },
-    { id: 5, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "#" },
-    { id: 6, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "#" },
-    { id: 7, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "#" },
-    { id: 8, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "#" },
-    { id: 9, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "#" },
-    { id: 10, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "#" },
-    { id: 11, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "#" },
-    { id: 12, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "#" },
+    { id: 1, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
+    { id: 2, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
+    { id: 3, image: articleImg3, title: "Amazon’s Big Spring Sale", description: "Amazon’s major spring sale event kicks off March 20.", date: "March 1, 2025", link: "/resources" },
+    { id: 4, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
+    { id: 5, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
+    { id: 6, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
+    { id: 7, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
+    { id: 8, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
+    { id: 9, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
+    { id: 10, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources#" },
+    { id: 11, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
+    { id: 12, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
 ];
 
 

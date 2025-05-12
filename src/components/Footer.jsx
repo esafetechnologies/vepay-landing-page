@@ -14,10 +14,11 @@ const Footer = () => {
                 {/* Left side - Logo and Links */}
                 <img src={footerLogoLeft} alt="Darxforge Logo" className="footer-logo"/>
                 <div className="footer-links">
-                    <a href="/privacy-policy">Privacy Policy</a>
-                    <a href="/terms-and-conditions">Terms & Conditions</a>
-                    <a href="/careers">Careers</a>
-                    <a href="/faqs">FAQs</a>
+                    <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" >Privacy Policy</a>
+                    <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+                    <a href="/contact-us">Careers</a>
+                    <a href="/faq-section">FAQ</a>
+
                     <a href="/contact-us">Contact Us</a>
                 </div>
 

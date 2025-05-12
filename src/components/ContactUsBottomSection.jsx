@@ -18,19 +18,18 @@ const ContactUsBottomSection = () => {
                             <p>8:00 am to 5:00 pm</p>
                         </div>
                         <div className="contact-us-card fade-in">
-                            <h3>Canada Office Hours</h3>
+                            <h3>Canada Office</h3>
                             <p>Canada: 1771 Robson Street Vancouver, British Columbia Canada </p>
                         </div>
                     </div>
                     <div className="contact-us-card-col-2 fade-in">
                         <div className="contact-us-card fade-in">
-                            <h3>Our Address</h3>
+                            <h3>US Office</h3>
                             <p>US: 400 Rella Blvd ste. 207-732 Montebello, NY 10901 United States </p>
                         </div>
                         <div className="contact-us-card fade-in">
                             <h3>Get In Touch</h3>
-                            <p>+1-246-888-0653</p>
-                            <p>+1-222-632-0194</p>
+                            <p>+1 332-203-2313</p>
                         </div>
                     </div>
 
