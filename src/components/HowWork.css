@@ -12,6 +12,7 @@
     color: #333;
     gap: 3rem;
     max-width: 800px;
+    font-size: 2.3rem;
 }
 
 .howwork-title{
@@ -20,7 +21,7 @@
 }
 
 .howwork-subtext {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 7rem;
     color: #555;
 }
@@ -62,15 +63,14 @@
     align-content: center;
     background-color: #EEF3FF;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: black;
     padding: 0 1rem;
     border-radius: 0 0 1.2rem 1.2rem;
     margin-top: -1rem;
-    min-height: 5rem;
+    min-height: 7rem;
     text-align: center;
 }
-
 
 @media (max-width: 1024px) {
     .howwork-container {
@@ -125,7 +125,10 @@
         border-radius: 0 0 1.2rem 1.2rem;
         margin-top: -1rem;
         text-align: center;
+        gap: rem;
     }
+   
+
 }
 
 

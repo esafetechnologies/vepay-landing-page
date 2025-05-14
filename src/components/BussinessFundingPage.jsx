@@ -4,9 +4,9 @@ import bussinessFundingBgImage from "../assets/bussiness-funding-hero-bg.png";
 import SustainabilitySection from "./SustainabilitySection.jsx";
 import bussinessFundingSustainabilityBg from "../assets/bussiness-funding-sustainability-bg.png"
 import WhyChoose from "./WhyChoose.jsx";
-import howWorkImg1 from "../assets/how-work-img-01.png"
+import howWorkImg1 from "../assets/attractive-female-student-work-smm-using-smartphone-write-post-her-company-smiling-delighted-made-up-excellent-idea-mobile-promotion-standing-white-background-using-a.png"
 import howWorkImg2 from "../assets/how-work-img-2.png"
-import howWorkImg3 from "../assets/how-work-img-3.png"
+import howWorkImg3 from "../assets/cheerful-young-handsome-businessman-holding-money-using-mobile-phone.png"
 import howWorkImg4 from "../assets/how-work-img-4.png"
 import eligibilitySectionLogo1 from "../assets/eligibility-section-logo-1.svg"
 import eligibilitySectionLogo2 from "../assets/eligibility-section-logo-2.svg"
@@ -40,13 +40,13 @@ const BussinessFundingPage = () => {
         {
             image: howWorkImg3,
             altText: "Receive Immediate Payment",
-            heading: "Receive Immediate Payment",
+            heading: "Receive Advance Funding",
             description: ""
         },
         {
             image: howWorkImg4,
             altText: "Pay back when your marketplace pays you",
-            heading: "Pay back when your marketplace pays you",
+            heading: "Align repayment with marketplace payment",
             description: ""
         }
     ];
@@ -69,12 +69,7 @@ const BussinessFundingPage = () => {
                     title: "Average Monthly Sales",
                     description: "$10,000"
                 },
-                {
-                    image: eligibilitySectionLogo2,
-                    altText: "Minimum Marketplace History",
-                    title: "Minimum Marketplace History",
-                    description: "12 Months"
-                }
+               
             ]
         },
         {
@@ -156,7 +151,7 @@ const BussinessFundingPage = () => {
                 description="Its Fast, interest-free funding with flexible repayment options tailored to your eCommerce needs."
                 buttonText="Get funded"
                 backgroundImage={bussinessFundingSustainabilityBg}
-                link="https://dev.vepay.io/onboarding"
+                link="/contact-us"
             />
             <FaqSection faqs={faqs}/>
 

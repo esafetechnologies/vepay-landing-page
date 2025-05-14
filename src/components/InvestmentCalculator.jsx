@@ -11,6 +11,7 @@ const InvestmentCalculator = () => {
         12: 11.32,
         18: 12.64,
         24: 13.38,
+        30: 14.05,
         36: 14.71,
     };
 
@@ -69,7 +70,7 @@ const InvestmentCalculator = () => {
                             list="investment-terms"
                         />
                         <datalist id="investment-terms">
-                            {[6, 12, 18, 24, 30, 36].map((term) => (
+                            {[6, 12, 18, 24, 36].map((term) => (
                                 <option key={term} value={term} />
                             ))}
                         </datalist>

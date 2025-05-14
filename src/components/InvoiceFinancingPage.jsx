@@ -6,7 +6,7 @@ import invoiceFinancingSustainabilityBg from "../assets/invoice-financing-sustai
 import WhyChoose from "./WhyChoose.jsx";
 import howWorkImg1 from "../assets/how-work-img-1.png"
 import howWorkImg2 from "../assets/how-work-img-2.png"
-import howWorkImg3 from "../assets/how-work-img-3.png"
+import howWorkImg3 from "../assets/cheerful-young-handsome-businessman-holding-money-using-mobile-phone.png"
 import howWorkImg4 from "../assets/how-work-img-4.png"
 import eligibilitySectionLogo1 from "../assets/eligibility-section-logo-1.svg"
 import eligibilitySectionLogo2 from "../assets/eligibility-section-logo-2.svg"

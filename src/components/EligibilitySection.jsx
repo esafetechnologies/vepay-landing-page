@@ -18,7 +18,7 @@ const EligibilitySection = ({ heading, description, cards }) => {
                                     <div className="eligibility-text fade-in-up">
                                         <h4>{item.title}</h4>
                                         <p>{item.description}</p>
-                                    </div>
+                                    </div>zz
                                 </div>
                             ))}
                         </div>

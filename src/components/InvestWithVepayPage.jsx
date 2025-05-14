@@ -128,7 +128,8 @@ const InvestWithVepayPage = () => {
             <div className="invest-with-vepay-invest-section-hero">
                 <Invest
                     subheading="Invest with VePay"
-                    heading="Empower Growth. Invest Ethically."
+                    heading="invest in What Matters Most"
+                    description="Whether you're planning for growth,impact,or steady returns,Vepay helps you align your investments with your values. Our Shariah-compliant,interest-free investment model empowers you to invest in eCommerce businesses that are making a difference."
                     buttonText="Invest Now!"
                     imageSrc={investWithVepayBgImage}
                     bgSizeMd="contain"

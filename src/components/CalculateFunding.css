@@ -36,16 +36,16 @@
 }
 
 .calculate-funding-content h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .calculate-funding-content p {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 
 .calculate-funding-calculator {
-    background: #EEF3FF; /* Blue-grey */
+    background: #ffffffc4; /* Blue-grey */
     padding: 2rem;
     border-radius: 0.8rem;
     color: white;
@@ -110,10 +110,15 @@
 .calculator-footer {
     font-size: 1rem;
     text-align: left;
+    color: #323841;
+    padding: 1rem 0.3rem;
+}
+.calculator-note {
+    font-size: 0.9rem;
+    text-align: left;
     color: #4B5563;
     padding: 1rem 0.3rem;
 }
-
 
 @media (max-width: 1024px) {
 
