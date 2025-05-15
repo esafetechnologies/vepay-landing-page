@@ -80,3 +80,70 @@
   font-size: 0.9rem;
   color: #444;
 }
+@media (max-width: 768px) {
+  .partners-section {
+    padding: 30px 10px;
+  }
+
+  .partners-heading {
+    font-size: 1.5rem;
+  }
+
+  .partners-subtext {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+  }
+
+  .carousel-wrapper {
+    padding: 0 10px;
+  }
+
+  .carousel-track {
+    gap: 20px;
+  }
+
+  .partner-item {
+    width: 120px;
+  }
+
+  .partner-item img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .partner-item p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partners-heading {
+    font-size: 1.25rem;
+  }
+
+  .partners-subtext {
+    font-size: 0.85rem;
+  }
+
+  .carousel-track {
+    gap: 15px;
+  }
+
+  .partner-item {
+    width: 100px;
+  }
+
+  .partner-item img {
+    width: 80px;
+    height: 60px;
+  }
+
+  .partner-item p {
+    font-size: 0.75rem;
+  }
+
+  .carousel-wrapper::before,
+  .carousel-wrapper::after {
+    display: none; /* Optional: remove gradient on mobile for clarity */
+  }
+}
