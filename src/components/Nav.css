@@ -108,12 +108,54 @@
     font-weight: 500;
 }
 
-.dropdown-title {
-    color: #333;
-    font-size: 15px;
-    font-weight: 550;
-    cursor: pointer;
+
+
+.dropdown {
+  position: relative; /* Key for positioning context */
+  display: inline-block;
 }
+
+.dropdown-title {
+  color: #333;
+  font-size: 15px;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  background-color: #fff;
+  min-width: 200px;
+  padding: 10px 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  padding: 8px 20px;
+}
+
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* 🔥 THIS IS THE KEY */
+.dropdown-menu.right-aligned {
+  right: 0;
+  left: auto;
+}
+
+
+
+
 .nav-button:hover {
     background-color: #0056b3;
 }

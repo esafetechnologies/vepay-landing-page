@@ -26,17 +26,19 @@ const Nav = () => {
                             className="dropdown"
                             onMouseEnter={() => setExploreOpen(true)}
                             onMouseLeave={() => setExploreOpen(false)}
-                        >
-                            <span className="dropdown-title">Explore ▾</span>
-                            {exploreOpen && (
-                                <ul className="dropdown-menu">
-                                    <li><a href="/invest-with-vepay">Invest with VePay</a></li>
-                                    <li><a href="/about-us">About Us</a></li>
-                                    <li><a href="/sustainability">Sustainability</a></li>
-                                    <li><a href="/resources">Insights</a></li>
-                                </ul>
-                            )}
+>
+                           <span className="dropdown-title">Explore ▾</span>
+                           {exploreOpen && (
+                             <ul className="dropdown-menu right-aligned">
+                               <li><a href="/invest-with-vepay">Invest with VePay</a></li>
+                               <li><a href="/about-us">About Us</a></li>
+                               <li><a href="/sustainability">Sustainability</a></li>
+                              <li><a href="/resources">Insights</a></li>
+                             </ul>
+                             )}
                         </li>
+
+                        
 
                         <li><a href="/other-services">Other Services</a></li>
                         <li><a href="/contact-us">Contact Us</a></li>
