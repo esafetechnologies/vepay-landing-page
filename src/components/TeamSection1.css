@@ -10,7 +10,7 @@
   color: #222;
 }
 
-.team-container1{
+.team-container1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,7 +23,7 @@
   border-radius: 12px;
   padding: 20px;
   width: 280px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,9 +34,10 @@
 
 .avatar {
   width: 100%;
+  max-width: 240px;
   height: auto;
   border-radius: 50%;
-  margin-bottom: 15px;
+  margin: 0 auto 15px;
 }
 
 .team-content {
@@ -75,4 +76,63 @@
 
 .linkedin-logo:hover {
   transform: scale(1.1);
+}
+
+/* Tablet screens */
+@media (max-width: 1024px) {
+  .team-container1 {
+    height: auto;
+    gap: 30px;
+  }
+
+  .team-card {
+    width: 240px;
+    min-height: 380px;
+    padding: 15px;
+  }
+
+  .avatar {
+    max-width: 180px;
+  }
+
+  .personname {
+    font-size: 1.1rem;
+  }
+
+  .desc {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .team-container1 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: 20px;
+  }
+
+  .team-card {
+    width: 90%;
+    min-height: 350px;
+    padding: 15px;
+  }
+
+  .avatar {
+    max-width: 150px;
+  }
+
+  .personname {
+    font-size: 1rem;
+  }
+
+  .desc {
+    font-size: 0.85rem;
+  }
+
+  .linkedin-logo {
+    width: 80px;
+    height: 80px;
+  }
 }
