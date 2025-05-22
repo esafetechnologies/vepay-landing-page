@@ -124,7 +124,7 @@ const OtherServicesPage = () => {
                 <Invest
                     subheading="Other Services"
                     heading="Empower Your eCommerce Growth with VePay"
-                    description="At VePay, we’re not just providing financing – we’re redefining the way you manage your business. From fast access to funds to cutting-edge analytics.
+                    description="At VePay, we’re not just providing financing we’re redefining the way you manage your business. From fast access to funds to cutting-edge analytics.
 "
                     buttonText=""
                     imageSrc={otherServicesHeroBgImage}

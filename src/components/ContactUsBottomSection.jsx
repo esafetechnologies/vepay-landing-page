@@ -8,14 +8,14 @@ const ContactUsBottomSection = () => {
             <div className="contact-us-text fade-in-up">
                 <div className="contact-us-header fade-in-up">
                     <h2>Contact Us</h2>
-                    <p>Clarity gives you the blocks & components you need to create a truly professional website.</p>
+                    {/* <p>Clarity gives you the blocks & components you need to create a truly professional website.</p> */}
                 </div>
                 <div className="contact-us-cards fade-in">
                     <div className="contact-us-card-col-1 fade-in">
                         <div className="contact-us-card fade-in">
                             <h3>USA OFFICE Hours</h3>
                             <p>Monday-Friday</p>
-                            <p>8:00 am to 5:00 pm</p>
+                            <p>9:00 am to 5:00 pm</p>
                         </div>
                         <div className="contact-us-card fade-in">
                             <h3>Canada Office</h3>
@@ -25,7 +25,7 @@ const ContactUsBottomSection = () => {
                     <div className="contact-us-card-col-2 fade-in">
                         <div className="contact-us-card fade-in">
                             <h3>US Office</h3>
-                            <p>US: 400 Rella Blvd ste. 207-732 Montebello, NY 10901 United States </p>
+                            <p>US: 400 Rella Blvd <br></br>ste. 207-732 Montebello, NY 10901 United States </p>
                         </div>
                         <div className="contact-us-card fade-in">
                             <h3>Get In Touch</h3>
@@ -54,9 +54,10 @@ const ContactUsBottomSection = () => {
                    <option value="instapay">InstaPay (Instant Funding)</option>
                    <option value="vefund">VeFund (Business Financing)</option>
                    <option value="investment">Investment Opportunities</option>
-                   <option value="services">Service Inquiries (VeCard, Checking, Analytics)</option>
+                   <option value="services">Service Inquiries (VeCard, Checking)</option>
                    <option value="partnership">Partnership Opportunities</option>
                    <option value="careers">Careers at VePay</option>
+                   <option value="other">General Inquiries</option>
                    </select>
                 </div>
 

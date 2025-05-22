@@ -1,0 +1,78 @@
+.team-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.team-container1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  height: 600px;
+}
+
+.team-card {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 420px;
+  position: relative;
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.team-content {
+  flex-grow: 1;
+}
+
+.personname {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-style: italic;
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  margin-top: auto;
+  text-align: center;
+}
+
+.linkedin-logo {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s;
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.1);
+}

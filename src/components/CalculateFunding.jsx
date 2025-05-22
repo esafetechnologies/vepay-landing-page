@@ -20,7 +20,7 @@ const CalculateFunding = () => {
                     <p>
                         At VePay, we’ve made it fast and effortless to get funded.
                         In just three easy steps, connect your eCommerce business
-                        and access the working capital you need – instantly.
+                        and access the working capital you need instantly.
                     </p>
                 </div>
 

@@ -20,6 +20,7 @@ import {applyScrollAnimation} from "./scrollAnimation.js";
 import ResourcesPage from "./components/ResourcesPage.jsx";
 import TermsAndConditions from "./components/TermsAndConditions.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
+import FaqPage from "./components/FaqPage.jsx";
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
               <Route path="/contact-us" element={<ContactUsPage />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="/faq-page" element={<FaqPage />} />
           </Routes>
 
           <div className="footer-section-container">

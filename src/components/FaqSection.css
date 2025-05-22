@@ -26,26 +26,38 @@
     gap: 0;
     padding-right: 5px;
     margin: 0;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #cbd5e1 transparent;
 }
 
+/* Custom scrollbar for WebKit browsers */
 .faq-container::-webkit-scrollbar {
-    display: none;
+    width: 8px;
+}
+
+.faq-container::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.faq-container::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 4px;
 }
 
 /* Styling for the FAQ Cards */
 .faq-card {
-    background-color: #F8FAFC; /* Blue-grey color */
+    background-color: #F8FAFC;
     color: black;
     border-radius: 0.5rem;
     padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease;
     text-align: left;
-    border: 0.5px solid #d9d9d9; /* Added a small border */
+    border: 0.5px solid #d9d9d9;
 }
 
 .faq-card.open {
-    background-color: #F8FAFC; /* Slightly darker when expanded */
+    background-color: #F8FAFC;
 }
 
 .faq-question {
@@ -71,7 +83,7 @@
     padding: 0 0.5rem;
 }
 
-
+/* Responsive Design */
 @media (max-width: 1024px) {
     .faq-title {
         font-size: 1.5rem;
@@ -81,30 +93,24 @@
         font-size: 0.8rem;
         margin-bottom: 3rem;
     }
-
-    .faq-question{
+    .faq-question {
         font-size: 0.8rem;
     }
-
-    .faq-answer{
+    .faq-answer {
         font-size: 0.7rem;
     }
-
-    .toggle-button{
+    .toggle-button {
         font-size: 1.5rem;
         padding: 0 0.2rem;
     }
-
 }
 
 @media (max-width: 900px) {
     .faq-section {
         max-width: 42rem;
     }
-
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .faq-section {
         padding: 1rem;
@@ -119,24 +125,20 @@
     .faq-card {
         padding: 12px;
     }
-
-    .faq-question{
+    .faq-question {
         font-size: 0.8rem;
     }
-
-    .faq-answer{
+    .faq-answer {
         font-size: 0.7rem;
     }
-
-    .toggle-button{
+    .toggle-button {
         font-size: 1.5rem;
         padding: 0 0.2rem;
     }
 }
 
 @media (max-width: 480px) {
-
     .faq-section {
-        padding:4rem 1rem;
+        padding: 4rem 1rem;
     }
 }

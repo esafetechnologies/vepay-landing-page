@@ -33,15 +33,22 @@
 }
 
 /* Each Card */
+.invest-calculator-card-left {
+    background: #EEF3FF;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 60%;
+    text-align: left;
+    color: black;
+}
 .invest-calculator-card {
     background: #EEF3FF;
     border-radius: 0.5rem;
     padding: 2rem;
-    width: 49%;
-    text-align: center;
+    width: 30%;
+    text-align: left;
     color: black;
 }
-
 /* Sliders */
 .slider-container {
     display: flex;

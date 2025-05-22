@@ -11,6 +11,7 @@ import sustainabilityBg from "../assets/sustainability-section-bg.jpg";
 import MediaMentions from "./MediaMentions.jsx";
 import LatestArticles from "./LatestArticles.jsx";
 import PartnersSection from "./PartnersSection.jsx";
+import PostCarousel from './PostCarousel.jsx';
 
 
 const HomePage = () => {
@@ -53,7 +54,7 @@ const HomePage = () => {
             />
             <div className="articles-section-container">
 
-                <LatestArticles></LatestArticles>
+                <PostCarousel></PostCarousel>
 
             </div>
         </>

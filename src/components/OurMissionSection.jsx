@@ -17,7 +17,7 @@ const OurMissionSection = ({ backgroundImage }) => {
                                 solutions that unlock growth potential and foster sustainable success.
                             </p>
                             <p>
-                                As your Shariah-compliant partner, we adhere to ethical principles in every financial
+                                As your Interest-free funding partner, we adhere to ethical principles in every financial
                                 transaction. Our unwavering commitment to transparency and fairness builds trust, while
                                 empowering eCommerce businesses to thrive without compromising on their values.
                             </p>

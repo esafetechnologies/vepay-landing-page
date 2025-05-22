@@ -25,7 +25,7 @@ const WhyChooseAdvanced = ({ title, description, cardData, buttonText, buttonLin
                             <h3>{card.title}</h3>
                             </div>
                             <p>{card.description}</p>
-                            {card.link && <a href={card.link} className="card-link">Learn more <span className="arrow">→</span></a>}
+                            {card.link && <a href={card.link} className="card-link">Learn more →</a>}
                         </div>
                     ))}
                 </div>
@@ -38,7 +38,7 @@ const WhyChooseAdvanced = ({ title, description, cardData, buttonText, buttonLin
                             <h3>{card.title}</h3>
                             </div>
                             <p>{card.description}</p>
-                            {card.link && <a href={card.link} className="card-link">Learn more <span className="arrow">→</span></a>}
+                            {card.link && <a href={card.link} className="card-link">Learn more →</a>}
                         </div>
                     ))}
                 </div>

@@ -20,7 +20,7 @@ const Nav = () => {
                     <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
                         <li><a href="/invoice-financing">Invoice Financing</a></li>
                         <li><a href="/bussiness-funding">Business Funding</a></li>
-                        
+                        <li><a href="/other-services">Checking and Debit</a></li>
                         {/* Explore Dropdown */}
                         <li
                             className="dropdown"
@@ -40,7 +40,7 @@ const Nav = () => {
 
                         
 
-                        <li><a href="/other-services">Other Services</a></li>
+                        
                         <li><a href="/contact-us">Contact Us</a></li>
 
                         {/* Move Contact Us button inside the mobile menu */}

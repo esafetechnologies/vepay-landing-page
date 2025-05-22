@@ -31,7 +31,7 @@ const InvestmentCalculator = () => {
 
             <div className="invest-calculator-cards">
                 {/* Input Card */}
-                <div className="invest-calculator-card fade-in-up">
+                <div className="invest-calculator-card-left fade-in-up">
                     {/* Investment Amount */}
                     <div className="slider-container">
                         <div className="slider-label fade-in">

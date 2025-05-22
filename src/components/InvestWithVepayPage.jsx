@@ -173,7 +173,7 @@ const InvestWithVepayPage = () => {
                 backgroundImage={readyToMakeImpactSectionBg}
                 link="/contact-us"
             ></ReadyToMakeImpactSection>
-            <FaqSection faqs={faqs} />
+            
 
         </>
 

@@ -1,0 +1,14 @@
+/* Ensure the whole page background is white */
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+}
+
+.faq-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

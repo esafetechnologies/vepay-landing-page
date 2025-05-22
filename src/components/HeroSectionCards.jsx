@@ -24,7 +24,7 @@ const HeroSectionCards = () => {
                             transparent, and ethical funding to power your eCommerce business.
                         </p>
                         <a href="https://dev.vepay.io/onboarding" className="link">
-                            Get Funded Today <span className="arrow">→</span>
+                            Get Funded Today →
                         </a>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const HeroSectionCards = () => {
                             heights.
                         </p>
                         <a href="/contact-us" className="link">
-                            Sign Up for Early Access <span className="arrow">→</span>
+                            Sign Up for Early Access →
                         </a>
                     </div>
                 </div>

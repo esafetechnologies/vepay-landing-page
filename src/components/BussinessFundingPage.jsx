@@ -69,7 +69,12 @@ const BussinessFundingPage = () => {
                     title: "Average Monthly Sales",
                     description: "$10,000"
                 },
-               
+                {
+                    image: eligibilitySectionLogo2,
+                    altText: "Minimum Marketplace History",
+                    title: "Minimum Marketplace History",
+                    description: "12 Months"
+                }
             ]
         },
         {
@@ -114,7 +119,7 @@ const BussinessFundingPage = () => {
                     subheading="Business Funding"
                     heading="Power Up Your Growth with Flexible Business Financing!"
                     description="Unlock up to 5 months of revenue today.
-                                 No interest, no hidden fees – just smart financing tailored for you."
+                                 No interest, no hidden fees just smart financing tailored for you."
                     buttonText="Start Growing Your Business Today"
                     imageSrc={bussinessFundingBgImage}
                     bgSizeMd="contain"

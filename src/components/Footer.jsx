@@ -17,8 +17,7 @@ const Footer = () => {
                     <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" >Privacy Policy</a>
                     <a href="/terms-and-conditions" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
                     <a href="/contact-us">Careers</a>
-                    <a href="/faq-section">FAQ</a>
-
+                    <a href="/faq-Page"target="_blank" rel="noopener noreferrer">FAQ</a>
                     <a href="/contact-us">Contact Us</a>
                 </div>
 
