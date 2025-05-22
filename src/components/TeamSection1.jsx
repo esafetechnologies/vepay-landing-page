@@ -12,28 +12,28 @@ const teamMembers = [
     title: '',
     image: person5,
     desc: 'Founder of ADA-ES (Nasdaq: ADES), ADA Carbon Solutions, and Tinuum',
-    linkedin: 'https://www.linkedin.com/in/mike-durham/' // Example link
+    linkedin: 'https://www.linkedin.com/in/mike-durham-5811b5101/' // Example link
   },
   {
     name: 'Dr. Farrukh Habib',
     title: '',
     image: person6,
     desc: 'Co-Founder of Shariah Experts & Alif Technologies',
-    linkedin: 'https://www.linkedin.com/in/farrukh-habib/' // Example link
+    linkedin: 'https://www.linkedin.com/in/drfarrukhhabib/' // Example link
   },
   {
     name: 'Mr. Osman Kassim',
     title: '',
     image: person7,
     desc: 'Founder of Expolanka Pvt Ltd. Founder Chairman of Amana Bank. Chairman Emeritus - Aberdeen Holdings. Chairman of Vidullanka Plc.',
-    linkedin: 'https://www.linkedin.com/in/osman-kassim/' // Example link
+    linkedin: 'https://www.linkedin.com/in/osmankassim/' // Example link
   },
   {
     name: 'Mr. Derrick Chen',
     title: '',
     image: person8,
     desc: 'Co-Founder and CEO Cenports Commerce Inc., AndMakers',
-    linkedin: 'https://www.linkedin.com/in/derrick-chen/' // Example link
+    linkedin: 'https://www.linkedin.com/in/derrick-chen-561ba3/' // Example link
   }
 ];
 

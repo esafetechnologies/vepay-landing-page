@@ -13,35 +13,35 @@ const teamMembers = [
     title: '',
     image: person1 ,
     desc: 'CEO & Founder',
-    linkedin: 'https://www.linkedin.com/in/mafaz-jaufer/' // Example link
+    linkedin: 'https://www.linkedin.com/in/mafazjaufer/' // Example link
   },
   {
     name: 'Souhail Meftah',
     title: '',
     image: person2 ,
     desc: 'CTO',
-    linkedin: 'https://www.linkedin.com/in/souhail-meftah/' // Example link
+    linkedin: 'https://www.linkedin.com/in/usama-azhar-6432b560/' // Example link
   },
   {
     name: 'Usama Azhar',
     title: '',
     image: person3 ,
     desc: 'CFO',
-    linkedin: 'https://www.linkedin.com/in/usama-azhar/' // Example link
+    linkedin: 'https://www.linkedin.com/in/usama-azhar-6432b560/' // Example link
   },
   {
     name: 'Saajid Sabry',
     title: '',
     image: person4 ,
     desc: 'CPO',
-    linkedin: 'https://www.linkedin.com/in/saajid-sabry/' // Example link
+    linkedin: 'https://www.linkedin.com/in/saajid-sabry-csaa-55151737/' // Example link
   }
 ];
 
 const TeamSection = () => {
   return (
     <div className="team-section">
-      <h2 className="section-title">Board Of Advisors</h2>
+      <h2 className="section-title">Leadership Team</h2>
       <div className="team-container">
         {teamMembers.map((member, index) => (
           <div className="team-card" key={index}>
