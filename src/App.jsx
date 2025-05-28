@@ -61,6 +61,7 @@ function App() {
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/faq-page" element={<FaqPage />} />
+    
           </Routes>
 
           <div className="footer-section-container">

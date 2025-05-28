@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ContactUsBottomSection.css"; // Import the CSS file
+import "https://js-na2.hsforms.net/forms/embed/242862387.js"
 
 const ContactUsBottomSection = () => {
     return (
@@ -36,37 +37,10 @@ const ContactUsBottomSection = () => {
                 </div>
             </div>
 
-            {/* Right Section - Contact Form */}
+                 {/* Right Section - Contact Form */}
             <div className="contact-us-form fade-in-up">
-                <form>
-                    <div className="form-group">
-                        <label>Your name</label>
-                        <input type="text" placeholder="Enter your name"/>
-                    </div>
-                    <div className="form-group">
-                        <label>Email address</label>
-                        <input type="email" placeholder="Enter your email"/>
-                    </div>
-                <div className="form-group">
-                   <label htmlFor="contactPurpose">Reason for Contact</label>
-                   <select id="contactPurpose" className="form-control">
-                   <option value="" disabled selected>Select a reason</option>
-                   <option value="instapay">InstaPay (Instant Funding)</option>
-                   <option value="vefund">VeFund (Business Financing)</option>
-                   <option value="investment">Investment Opportunities</option>
-                   <option value="services">Service Inquiries (VeCard, Checking)</option>
-                   <option value="partnership">Partnership Opportunities</option>
-                   <option value="careers">Careers at VePay</option>
-                   <option value="other">General Inquiries</option>
-                   </select>
-                </div>
-
-                    <div className="form-group">
-                        <label>Write your message</label>
-                        <textarea placeholder="Write us your question here..."></textarea>
-                    </div>
-                    <button type="submit" className="contact-us-button">Contact today</button>
-                </form>
+                <script src="https://js-na2.hsforms.net/forms/embed/242862387.js" defer></script>
+                <div class="hs-form-frame" data-region="na2" data-form-id="8e024c02-b1cd-4c69-a8a2-f425934afff4" data-portal-id="242862387"></div>
             </div>
         </section>
     );
