@@ -1,31 +1,12 @@
-import './ContactUsPage.css';
-
-import Invest from "./Invest.jsx";
-import sustainabilityPageHeroBgImage from "../assets/sustainability-page-hero-bg.svg";
-import ContactUsBottomSection from "./ContactUsBottomSection.jsx";
+import './ResourcesPage.css'; // Import the CSS file
 import LatestArticles from "./LatestArticles.jsx";
-import Insights from "./Insights.jsx";
-
 
 const ResourcesPage = () => {
-
-
-    return (
-        <>
-            <div className="resources-page-section">
-                <div className="resources-page-container">
-                    <div className=" ">
-
-                        <Insights></Insights>
-
-                    </div>
-                </div>
-            </div>
-
-        </>
-
-    )
-        ;
+  return (
+    <div className="resources-page">
+      <LatestArticles />
+    </div>
+  );
 };
 
-export default ResourcesPage;
+export default ResourcesPage; // Fixed export name

@@ -34,7 +34,6 @@
 .faq-container::-webkit-scrollbar {
     width: 8px;
 }
-
 .faq-container::-webkit-scrollbar-track {
     background: transparent;
 }

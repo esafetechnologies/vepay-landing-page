@@ -21,6 +21,12 @@ import ResourcesPage from "./components/ResourcesPage.jsx";
 import TermsAndConditions from "./components/TermsAndConditions.jsx";
 import PrivacyPolicy from "./components/PrivacyPolicy.jsx";
 import FaqPage from "./components/FaqPage.jsx";
+import AmazonAIArticle from "./components/blogs1.jsx"; // Import the blog component
+import AmazonSpringSale from "./components/blogs2.jsx"; // Import the second blog component
+import AmazonAlgorithms from "./components/blogs3.jsx"; // Import the third blog component
+
+
+
 
 
 function App() {
@@ -61,6 +67,10 @@ function App() {
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />
               <Route path="/faq-page" element={<FaqPage />} />
+              <Route path="/amazon-ai-article" element={<AmazonAIArticle />} />
+              <Route path="/amazon-spring-sale" element={<AmazonSpringSale />} />
+            <Route path="/understanding-amazon-algorithms" element={<AmazonAlgorithms />} />
+
     
           </Routes>
 

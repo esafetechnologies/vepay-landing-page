@@ -280,4 +280,53 @@
     .contact-us-button {
         font-size: 0.8rem;
     }
+
+
+/* Overlay to hide HubSpot badge */
+.white-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; /* adjust as needed */
+    background-color: white;
+    z-index: 10;
+    pointer-events: none;
 }
+
+/* Ensure .contact-us-form is positioned relative for overlay */
+.contact-us-form {
+    position: relative;
+}
+
+
+
+}
+/* General method to hide the badge */
+/* .hs-form > div:last-child {
+    display: none !important;
+}
+
+
+/* This targets the HubSpot form footer and hides it */
+/*.hs-form-iframe {
+    height: 100% !important;
+}
+
+.hs-form label[for="hs-eu-confirmation"] {
+    display: none !important;
+}
+
+.hs-form-iframe ~ div {
+    display: none !important;
+}
+
+.hs-form-footer {
+    display: none !important;
+}
+
+/* For embedded forms where badge appears */
+/*div[class*="powered-by"] {
+    display: none !important;
+}
+

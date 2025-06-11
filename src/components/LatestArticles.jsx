@@ -1,87 +1,69 @@
-import { useState } from "react";
-import { useSwipeable } from "react-swipeable"; // Install: npm install react-swipeable
-
-import './LatestArticles.css'
-
-import articleImg1 from "../assets/article-img-1.png"
-import articleImg2 from "../assets/article-img-2.png"
-import articleImg3 from "../assets/article-img-3.jpeg"
-import articleImg4 from "../assets/article-img-4.png"
-import articleImg5 from "../assets/article-img-5.png"
-import articleImg6 from "../assets/article-img-6.png"
-import arrowRight from "../assets/arrow-right.png"
+import './LatestArticles.css';
+import articleImg1 from "../assets/article-img-1.png";
+import articleImg2 from "../assets/article-img-2.png";
+import articleImg3 from "../assets/article-img-3.jpeg";
 
 
 const articles = [
-    { id: 1, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
-    { id: 2, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
-    { id: 3, image: articleImg3, title: "Amazon’s Big Spring Sale", description: "Amazon’s major spring sale event kicks off March 20.", date: "March 1, 2025", link: "/resources" },
-    { id: 4, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
-    { id: 5, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
-    { id: 6, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
-    { id: 7, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources" },
-    { id: 8, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
-    { id: 9, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
-    { id: 10, image: articleImg1, title: "Integration of AI and Automation in Amazon Selling", description: "AI and automation are reshaping Amazon selling in 2025.", date: "March 5, 2025", link: "/resources#" },
-    { id: 11, image: articleImg2, title: "Understanding Amazon's Algorithms", description: "How Amazon decides what products to show you.", date: "March 3, 2025", link: "/resources" },
-    { id: 12, image: articleImg3, title: "Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers", description: "Amazon sellers gear up for a big sales boost in March.", date: "March 1, 2025", link: "/resources" },
+  {
+    image: articleImg1,
+    title: 'Integration of AI and Automation in Amazon Selling: The Future of E-Commerce',
+    date: 'April 2, 2025',
+    comments: 'No Comments',
+    description: 'The e-commerce landscape is evolving rapidly, and Amazon sellers must keep up with the latest technological advancements to stay competitive. One of the most transformative trends in 2025 is the integration of Artificial Intelligence (AI) and automation into various aspects of selling on Amazon. With Amazon rolling out AI-driven tools like Amazon Nova Act AI agent, sellers now have access to enhanced automation that streamlines operations, improves customer engagement, and optimizes business performance. This article explores how AI and automation are shaping the future of Amazon selling and how sellers can leverage these technologies for growth.',
+    link: "/amazon-ai-article"
+  },
+  {
+    image: articleImg2,
+    title: 'Amazon’s Big Spring Sale: A Golden Opportunity for Amazon Sellers',
+    date: 'March 16, 2024',
+    comments: 'No Comments',
+    description: 'Amazon, the e-commerce giant, is gearing up for its Big Spring Sale, scheduled from March 20 to 25. Unlike Amazon’s exclusive Prime Day deals, this event is open to all shoppers, not just Prime members. But what does this mean for Amazon sellers? Let’s dive into how the Big Spring Sale can benefit sellers and provide them with a competitive edge.',
+    link: "/amazon-spring-sale"
+  },
+  {
+    image: articleImg3,
+    title: "Understanding Amazon's Algorithms",
+    date: 'January 7, 2023',
+    comments: 'No Comments',
+    description: 'When you search for something on Amazon, the results are displayed based on a number of factors. Amazon is constantly innovating and developing new algorithms to improve the customer experience and drive business growth. These are just a few examples of the many algorithms that Amazon uses to power its products and services.',
+    link: "/understanding-amazon-algorithms"
+  },
+
 ];
 
-
-const itemsPerPage = 6;
-
 export default function LatestArticles() {
-    const [activeIndex, setActiveIndex] = useState(0);
-    const totalPages = Math.ceil(articles.length / itemsPerPage);
-
-    const handleNext = () => {
-        setActiveIndex((prevIndex) => (prevIndex + 1) % articles.length);
-    };
-
-    const handlePrev = () => {
-        setActiveIndex((prevIndex) => (prevIndex - 1 + articles.length) % articles.length);
-    };
-
-    // Handle swipe gestures
-    const handlers = useSwipeable({
-        onSwipedLeft: handleNext,
-        onSwipedRight: handlePrev,
-        trackMouse: true,
-    });
-
     return (
-        <div className="latest-articles-container">
-            <div className="latest-articles fade-in">
-                <h2 className="fade-in">Read Latest Articles</h2>
-                <p className="fade-in">Create custom landing pages with Rareblocks that converts more visitors than any website.</p>
+        <div className="blog-index-container">
+            <div className="blog-header">
+                <h2>Latest Articles</h2>
+                <p>Stay updated with the latest trends and insights in e-commerce and AI</p>
             </div>
 
-            {/* Swipeable Container */}
-            <div {...handlers} className="articles-scroll fade-in">
-                {articles.slice(activeIndex, activeIndex + 6).map((article) => (
-                    <div key={article.id} className="article-card">
-                        <img src={article.image}  alt={article.title}/>
-                        <div className="article-content">
-                            <h3 className="fade-in">{article.title}</h3>
-                            <p className="fade-in"> {article.description}</p>
-                            <div className="article-divider"></div>
-                            <div className="article-footer fade-in">
-                                <span>{article.date}</span>
-                                <a href={article.link}><img src={arrowRight}/></a>
-                            </div>
+            <div className="blog-posts">
+                {articles.map((article) => (
+                    <article key={article.id} className="blog-post">
+                        <div className="post-image-container">
+                            <img 
+                                src={article.image}  
+                                alt={article.title}
+                                className="post-image"
+                            />
                         </div>
-                    </div>
-                ))}
-            </div>
+                        <div className="post-content">
+                            <div className="post-meta">
+                                <span className="post-date">{article.date}</span>
+                                <h3 className="post-title">{article.title}</h3>
+                                <p className="post-excerpt">{article.description}</p>
+                            </div>
+                            <a 
+                                 href={article.link} 
+                                 className="read-more-button">
+                                 Read More      
+                            </a>
 
-            {/* Pagination */}
-            <div className="pagination">
-                {Array.from({length: totalPages}, (_, index) => (
-                    <div
-                        key={index}
-                        className={`pagination-dot ${index === activeIndex ? "active" : ""}`}
-                        onClick={() => setActiveIndex(index)}
-                    ></div>
+                        </div>
+                    </article>
                 ))}
             </div>
         </div>
