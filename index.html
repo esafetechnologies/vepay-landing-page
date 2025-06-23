@@ -2,22 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ✅ Capitalized Brand Title -->
+    <title>VePay</title>
+
+    <!-- ✅ SEO Meta Description -->
+    <meta name="description" content="VePay simplifies global payments and eCommerce finance with Shariah-compliant solutions in over 40 countries.">
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg" />
+
+    <!-- ✅ Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- ✅ Preload Images -->
     <link rel="preload" href="./src/assets/hero-img-sm-screen.svg" as="image">
     <link rel="preload" href="./src/assets/hero-img.svg" as="image">
-    <title>Vepay</title>
+
+    <!-- ✅ Open Graph Meta Tags -->
+    <meta property="og:title" content="VePay" />
+    <meta property="og:description" content="Global FinTech leader simplifying payments and eCommerce finance." />
+    <meta property="og:image" content="https://vepay.io/logo.png" />
+    <meta property="og:url" content="https://vepay.io" />
+    <meta property="og:type" content="website" />
+
+    <!-- ✅ Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "VePay",
+      "url": "https://vepay.io",
+      "logo": "https://vepay.io/logo.png"
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
 
     <!-- 🔽 Chatbase chatbot script -->
-<script>
-(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="UeZcKyTDMBFDG1BS_GMtj";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-</script>
+    <script>
+    (function(){
+      if(!window.chatbase || window.chatbase("getState") !== "initialized"){
+        window.chatbase = (...arguments) => {
+          if(!window.chatbase.q){window.chatbase.q=[]}
+          window.chatbase.q.push(arguments)
+        };
+        window.chatbase = new Proxy(window.chatbase, {
+          get(target, prop){
+            if(prop === "q"){ return target.q }
+            return (...args) => target(prop, ...args)
+          }
+        })
+      }
+      const onLoad = function(){
+        const script = document.createElement("script");
+        script.src = "https://www.chatbase.co/embed.min.js";
+        script.id = "UeZcKyTDMBFDG1BS_GMtj";
+        script.domain = "www.chatbase.co";
+        document.body.appendChild(script)
+      };
+      if(document.readyState === "complete"){ onLoad() }
+      else{ window.addEventListener("load", onLoad) }
+    })();
+    </script>
     <!-- 🔼 Chatbase chatbot script ends -->
-
   </body>
 </html>
