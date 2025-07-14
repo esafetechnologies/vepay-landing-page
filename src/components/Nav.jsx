@@ -33,7 +33,7 @@ const Nav = () => {
                     <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
                         <li><a href="/invoice-financing">Invoice Financing</a></li>
                         <li><a href="/bussiness-funding">Business Funding</a></li>
-                        <li><a href="/other-services">Checking and Debit</a></li>
+                        <li><a href="/checking-and-debit">Checking and Debit</a></li>
 
                         {/* Explore Dropdown */}
                         <li
@@ -47,7 +47,7 @@ const Nav = () => {
                                     <li><a href="/invest-with-vepay">Invest with VePay</a></li>
                                     <li><a href="/about-us">About Us</a></li>
                                     <li><a href="/sustainability">Sustainability</a></li>
-                                    <li><a href="/resources">Insights</a></li>
+                                    <li><a href="/insights">Insights</a></li>
                                 </ul>
                             )}
                         </li>

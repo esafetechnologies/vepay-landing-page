@@ -60,9 +60,9 @@ function App() {
               <Route path="/bussiness-funding" element={<BussinessFundingPage />} />
               <Route path="/invest-with-vepay" element={<InvestWithVepayPage />} />
               <Route path="/about-us" element={<AboutUsPage />} />
-              <Route path="/other-services" element={<OtherServicesPage />} />
+              <Route path="/checking-and-debit" element={<OtherServicesPage />} />
               <Route path="/sustainability" element={<SustainabilityPage />} />
-              <Route path="/resources" element={<ResourcesPage />} />
+              <Route path="/insights" element={<ResourcesPage />} />
               <Route path="/contact-us" element={<ContactUsPage />} />
               <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
               <Route path="/privacy-policy" element={<PrivacyPolicy />} />

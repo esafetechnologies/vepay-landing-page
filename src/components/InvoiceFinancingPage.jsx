@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet';
 import './InvoiceFinancingPage.css';
 import Invest from "./Invest.jsx"
 import invoiceFinancingImage from "../assets/invoice-financing-hero-image.png";
@@ -113,6 +114,32 @@ const InvoiceFinancingPage = () => {
         
     return (
         <>
+
+            <Helmet>
+                <title>Invoice Financing | VePay - Instant Funding for eCommerce Sellers</title>
+                <meta 
+                    name="description" 
+                    content="Get instant cash for your unpaid invoices. VePay offers Shariah-compliant, interest-free invoice financing for Amazon sellers. Receive up to 70% advance within 24 hours. No hidden fees." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="invoice financing, ecommerce funding, instant cash, working capital, Amazon seller, Shariah-compliant, interest-free" 
+                />
+                <meta property="og:title" content="Invoice Financing | VePay - Instant Funding for eCommerce Sellers" />
+                <meta 
+                    property="og:description" 
+                    content="Turn your invoices into instant cash with VePay's Shariah-compliant invoice financing. Get approved in 24 hours with zero interest." 
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://www.vepay.online/invoice-financing" />
+                <meta property="og:image" content="https://www.vepay.online/static/images/og-invoice-financing.jpg" />
+                <meta property="og:image:alt" content="VePay Invoice Financing" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Instant Invoice Financing for eCommerce Sellers" />
+                <meta name="twitter:description" content="Get funded in 24 hours with 0% interest. Unlock cash from your unpaid invoices today!" />
+                <meta name="twitter:image" content="https://www.vepay.online/static/images/twitter-invoice-financing.jpg" />
+            </Helmet>
+
             <div className="invoice-financing-invest-section-hero">
                 <Invest
                     subheading="Invoice Financing"
