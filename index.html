@@ -3,70 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--  Capitalized Brand Title -->
-    <title>Funding for eCommerce sellers - Amazon |  Shopify |  Walmart | Shopee</title>
+    <!-- 🔽 Improved Title Tag (more keyword-focused) -->
+    <title>eCommerce Seller Funding: Amazon, Shopify, Walmart, Shopee | VePay</title>
 
-    <!--  SEO Meta Description -->
-    <meta name="description" content="VePay empowers Amazon sellers with instant, Shariah compliant funding. Access fast, flexible working capital based on your sales performance, no interest, no equity dilution. Grow your business with confidence.">
-
-    <!--  Favicon -->
-    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg" />
-
-    <!--  Font -->
+    <!-- 🔽 Enhanced Meta Description (longer, more keyword-rich) -->
+    <meta name="description" content="Instant Sharia-compliant funding for Amazon, Shopify, Walmart & Shopee sellers. Get working capital based on sales performance - no interest, no equity dilution. Fast approval, flexible repayment.">
+    
+    <!-- 🔽 Added robots meta tag -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- 🔽 Added canonical URL -->
+    <link rel="canonical" href="https://vepay.io" />
+    
+    <link rel="icon" type="image/svg+xml" href="./src/assets/fav.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!--  Preload Images -->
-    <link rel="preload" href="./src/assets/favicon.svg" as="image">
     <link rel="preload" href="./src/assets/favicon.svg" as="image">
 
-    <!--  Open Graph Meta Tags -->
-    <meta property="og:title" content="VePay" />
-    <meta property="og:description" content="VePay empowers Amazon sellers with instant, Shariah compliant funding. Access fast, flexible working capital based on your sales performance, no interest, no equity dilution. Grow your business with confidence." />
-    <meta property="og:image" content="./src/assets/favicon.svg" />
+    <!-- 🔽 Updated Open Graph Tags (matching title/description) -->
+    <meta property="og:title" content="eCommerce Seller Funding: Amazon, Shopify, Walmart, Shopee | VePay" />
+    <meta property="og:description" content="Instant Sharia-compliant funding for Amazon, Shopify, Walmart & Shopee sellers. Get working capital based on sales performance." />
+    <meta property="og:image" content="https://vepay.io/src/assets/og-image.jpg" />
     <meta property="og:url" content="https://vepay.io" />
     <meta property="og:type" content="website" />
 
-    <!--  Structured Data for Google -->
+    <!-- 🔽 Enhanced Structured Data (added more details) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "FinancialService",
       "name": "VePay",
       "url": "https://vepay.io",
-      "logo": "https://vepay.io/logo.png"
+      "logo": "https://vepay.io/logo.png",
+      "description": "Sharia-compliant funding for eCommerce sellers",
+      "offers": {
+        "@type": "Offer",
+        "name": "eCommerce Seller Funding",
+        "category": "Business Financing"
+      }
     }
     </script>
+    <meta name="google-site-verification" content="googlef3e364168ff4bad0.html" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- 🔽 Added JSON-LD for website structure -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://vepay.io/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://vepay.io/search?q={search_term}",
+        "query-input": "required name=search_term"
+      }
+    }
+    </script>
 
-    <!-- 🔽 Chatbase chatbot script -->
+    <!-- 🔽 Improved chatbot loading (async) -->
     <script>
     (function(){
       if(!window.chatbase || window.chatbase("getState") !== "initialized"){
-        window.chatbase = (...arguments) => {
-          if(!window.chatbase.q){window.chatbase.q=[]}
-          window.chatbase.q.push(arguments)
+        window.chatbase = function(){
+          (window.chatbase.q = window.chatbase.q || []).push(arguments)
         };
-        window.chatbase = new Proxy(window.chatbase, {
-          get(target, prop){
-            if(prop === "q"){ return target.q }
-            return (...args) => target(prop, ...args)
-          }
-        })
       }
-      const onLoad = function(){
+      const loadChat = () => {
         const script = document.createElement("script");
         script.src = "https://www.chatbase.co/embed.min.js";
         script.id = "UeZcKyTDMBFDG1BS_GMtj";
-        script.domain = "www.chatbase.co";
-        document.body.appendChild(script)
+        script.async = true;
+        document.body.appendChild(script);
       };
-      if(document.readyState === "complete"){ onLoad() }
-      else{ window.addEventListener("load", onLoad) }
+      if(document.readyState === "complete") loadChat();
+      else window.addEventListener("load", loadChat);
     })();
     </script>
-    <!-- 🔼 Chatbase chatbot script ends -->
   </body>
 </html>

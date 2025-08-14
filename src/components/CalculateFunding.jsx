@@ -1,5 +1,5 @@
 import { useState } from "react";
-import backgroundImage from "../assets/vecard-bg.png"; // Background image
+import backgroundImage from "../assets/vepay-vecard-bg.png"; // Background image
 import "./CalculateFunding.css";
 
 const CalculateFunding = () => {

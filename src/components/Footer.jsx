@@ -1,8 +1,8 @@
 import './Footer.css';  // Import custom CSS for styling
-import socialMediaLogo1 from "../assets/1.png"
-import socialMediaLogo2 from "../assets/2.svg"
-import socialMediaLogo3 from "../assets/3.svg"
-import socialMediaLogo4 from "../assets/4.svg"
+import socialMediaLogo1 from "../assets/vepay-1.png"
+import socialMediaLogo2 from "../assets/vepay-2.svg"
+import socialMediaLogo3 from "../assets/vepay-3.svg"
+import socialMediaLogo4 from "../assets/vepay-4.svg"
 import footerLogoLeft from "../assets/footer-logo-left.png"
 
 const Footer = () => {

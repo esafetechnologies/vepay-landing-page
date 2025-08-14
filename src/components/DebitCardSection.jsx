@@ -1,7 +1,7 @@
 import React from "react";
 import "./DebitCardSection.css";
-import debitCardImage from "../assets/credit-card.svg";
-import cardFeatureHeaderImg from "../assets/why-choose-card-logo-7.svg";
+import debitCardImage from "../assets/vepay-credit-card.svg";
+import cardFeatureHeaderImg from "../assets/vepay-why-choose-card-logo-7.svg";
 
 const DebitCardSection = () => {
     return (

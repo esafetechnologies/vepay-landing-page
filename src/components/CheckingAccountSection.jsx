@@ -1,7 +1,7 @@
 import React from "react";
 import "./CheckingAccountSection.css";
-import checkingAccountImage from "../assets/checking-account.svg";
-import featureIcon from "../assets/why-choose-card-logo-7.svg";
+import checkingAccountImage from "../assets/vepay-checking-account.svg";
+import featureIcon from "../assets/vepay-why-choose-card-logo-7.svg";
 
 const CheckingAccountSection = () => {
     return (

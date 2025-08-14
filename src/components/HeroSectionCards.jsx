@@ -1,10 +1,10 @@
 import "./HeroSectionCards.css";
-import fundingImage from "../assets/funding.svg"; // Replace with actual image
-import marketplace1 from "../assets/marketplace1.svg"; // Replace with actual logos
-import marketplace2 from "../assets/marketplace2.svg";
-import marketplace3 from "../assets/marketplace3.svg";
-import marketplace4 from "../assets/marketplace4.svg";
-import instaPayBg from "../assets/instapay-bg.png";
+import fundingImage from "../assets/vepay-funding.svg"; // Replace with actual image
+import marketplace1 from "../assets/vepay-marketplace1.svg"; // Replace with actual logos
+import marketplace2 from "../assets/vepay-marketplace2.svg";
+import marketplace3 from "../assets/vepay-marketplace3.svg";
+import marketplace4 from "../assets/vepay-marketplace4.svg";
+import instaPayBg from "../assets/vepay-instapay-bg.png";
 
 const HeroSectionCards = () => {
     return (
